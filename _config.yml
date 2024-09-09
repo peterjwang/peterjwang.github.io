@@ -45,7 +45,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: false
 socials_in_search: true
 bib_search: true
@@ -244,11 +244,6 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _pages/blog.md
-  - _pages/cv.md
-  - _pages/projects.md
-  - _pages/repositories.md
-  - _pages/dropdown.md
 keep_files:
   - CNAME
   - .nojekyll
