@@ -1,0 +1,357 @@
+<!DOCTYPE html><html><head>
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XB3PR2Y1TQ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XB3PR2Y1TQ');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Trajectory Regularization Enhances Self-Supervised Geometric Representation</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/Highlight-Clean.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/table-crop.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/table-crop.png">
+    <link rel="manifest" href="./site.webmanifest">
+
+    <meta property="og:site_name" content="Virtual Pets: Animatable Animal Generation in 3D Scenes ">
+    <meta property="og:type" content="video.other">
+    <meta property="og:title" content="Virtual Pets: Animatable Animal Generation in 3D Scenes ">
+    <meta property="og:description" content="Virtual Pets: Animatable Animal Generation in 3D Scenes , 2023.">
+    <meta property="og:url" content="https://VirtualPets.github.io/">
+    <meta property="og:image" content="https://VirtualPets.github.io/assets/images/dreamfusion_samples.png">
+
+    <meta property="article:publisher" content="https://VirtualPets.github.io/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Virtual Pets: Animatable Animal Generation in 3D Scenes ">
+    <meta name="twitter:description" content="Learning 4D animation of cats from 2D monocular videos.">
+    <meta name="twitter:url" content="https://VirtualPets.github.io/">
+    <meta name="twitter:image" content="https://dreamfusion3d.github.io/assets/images/dreamfusion_samples.png">
+    <!-- <meta name="twitter:site" content="" /> -->
+
+    <script src="js/video_comparison.js"></script>
+    <script type="module" src="js/model-viewer.min.js"></script>
+</head>
+
+<body>
+    <!-- <div class="banner">
+      <video class="video lazy"
+          poster="https://dreamfusion-cdn.ajayj.com/sept28/banner_1x6_customhue_A.jpg"
+          autoplay loop playsinline muted>
+        <source data-src="https://dreamfusion-cdn.ajayj.com/sept28/banner_1x6_customhue_A.mp4" type="video/mp4"></source>
+      </video>
+    </div> -->
+
+    <div class="highlight-clean" style="padding-bottom: 10px;">
+        <!-- <div class="container" style="max-width: 768px;"> -->
+        <div class="container" style="max-width: 768px;">
+            <h1 class="text-center"><b>Pose-Aware Self-Supervised Learning with Viewpoint Trajectory Regularization</b></h1>
+        </div>
+
+
+
+        <div class="container" style="max-width: 1000px; position: relative; left: 90px;">
+            <div class="row authors">
+                <div class="col-sm-3">
+                    <h5 class="text-center"><a class="text-center" href="http://pwang.pw/">Jiayun Wang</a></h5>
+                    <h6 class="text-center">UC Berkeley</h6>
+                </div>     
+                <div class="col-sm-3">
+                    <h5 class="text-center"><a class="text-center" href="https://yubeichen.com/">Yubei Chen</a></h5>
+                    <h6 class="text-center">UC Davis</h6>
+                </div>
+                <div class="col-sm-3">
+                    <h5 class="text-center"><a class="text-center" href="https://web.eecs.umich.edu/~stellayu/">Stella X. Yu</a></h5>
+                    <h6 class="text-center">UC Berkeley &amp; U Michigan</h6>
+                </div>         
+            </div>
+        </div>
+
+
+
+        <div class="container" style="max-width: 768px;">
+          <h4 class="text-center">ECCV 2024</h4>
+        </div>
+
+        <div class="buttons" style="margin-bottom: 8px;">
+            <a class="btn btn-light" role="button" href="https://arxiv.org/abs/2403.14973">
+                <svg style="width:24px;height:24px;margin-left:-12px;margin-right:12px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4M10 10V12H18V10H10M10 14V16H15V14H10Z"></path>
+                </svg>
+                Paper
+            </a>
+            <a class="btn btn-light" role="button" href="https://github.com/samaonline/Trajectory-Regularization-Enhances-Self-Supervised-Geometric-Representation">
+                <svg style="width:24px;height:24px;margin-left:-12px;margin-right:12px" viewBox="0 0 24 24">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                </svg>
+                Code
+            </a>
+            <a class="btn btn-light" role="button" href="https://drive.google.com/file/d/1Cq1RsNzA47qd2szqAD5nTqsSlIlzhWE9/view?usp=drive_link">
+                <svg style="width:24px;height:24px;margin-left:-12px;margin-right:12px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4M10 10V12H18V10H10M10 14V16H15V14H10Z"></path>
+                </svg>
+                Dataset
+            </a>
+        </div>
+    </div>
+    <!-- <hr class="divider" /> -->
+
+    <div class="container" style="max-width: 768px;">
+        <div class="row captioned_videos">
+            <div class="col-md-12">
+              <!-- <h2>VirtualPets - Overview</h2> -->
+                <!-- Large format devices -->
+                <!-- <video class="video lazy d-none d-xs-none d-sm-block" autoplay loop playsinline muted poster="https://dreamfusion-cdn.ajayj.com/sept28/wipe_opposite_6x4_smoothstep.jpg">
+                    <source data-src="https://dreamfusion-cdn.ajayj.com/sept28/wipe_opposite_6x4_smoothstep.mp4" type="video/mp4"></source>
+                </video> -->
+                <!-- Small format devices -->
+                <!-- <video class="video lazy d-xs-block d-sm-none" autoplay loop playsinline muted poster="https://dreamfusion-cdn.ajayj.com/sept28/shaded_3x3_smoothstep.jpg">
+                    <source data-src="https://dreamfusion-cdn.ajayj.com/sept28/shaded_3x3_smoothstep.mp4" type="video/mp4"></source>
+                </video> -->
+
+                <!-- <video class="video lazy"
+                  poster="./assets/1-teaser-v3-out-1.png"
+                  autoplay loop playsinline muted>
+                  <source data-src="./assets/teaser-vid.mp4" type="video/mp4"></source>
+                </video> -->
+
+                <!-- <video autoplay loop muted playsinline width="80%" style="display: block; margin: auto"> -->
+                <!-- <video autoplay loop muted playsinline width="0%"> -->
+                  <!-- <source src="./assets/teaser-vid-v1.mp4" type="video/mp4"> -->
+                  <!-- <source src="./assets/teaser-vid-v2.mp4" type="video/mp4"> -->
+                  <!-- <source src="./assets/1-teaser-v2.jpg" type="video/mp4"> -->
+                <!-- </video> -->
+
+                <img src="images/1-teaser-v2.jpg" style="max-width: 768px;">
+
+                <!-- <p> <b>VirtualPets</b> is a diffusion-based 3D shape generator. It enables various applications.
+                  (left) VirtualPets can generate 3D shapes conditioned on different input modalities, including partial shapes, images, and text. 
+                  VirtualPets can even jointly handle multiple conditioning modalities while controlling the  strength for each of them.
+                  (right) We showcase an application where we leverage pretrained 2D models to texture 3D shapes generated by VirtualPets.</p> -->
+                <h6 class="caption" style="text-align: center;"> <font style="font-weight: bold;">Traj SSL.&nbsp;</font> Given a 3D scene, we can generate diverse 3D animal motion sequences that are environment-aware.
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- <br> -->
+
+    <hr class="divider">
+
+    <div class="container" style="max-width: 768px;">
+      <div class="row">
+          <div class="col-md-12">
+              <h2>Abstract</h2>
+              <p>
+                  <!-- <strong> -->
+                <font style="font-weight: bold;">
+                Self-supervised learning (SSL) has proven effective in learning high-quality representations for various downstream tasks, with a primary focus on semantic tasks. However, its application in geometric tasks remains underexplored, partially due to the absence of a standardized evaluation method for geometric representations. To address this gap, we introduce a novel pose-estimation benchmark for assessing SSL geometric representations, which demands training without semantic or pose labels and achieving proficiency in both semantic and geometric downstream tasks. On this benchmark, we study enhancing SSL geometric representations without sacrificing semantic classification accuracy. We find that leveraging mid-layer representations improves pose-estimation performance by 10-20%. Further, we introduce an unsupervised trajectory-regularization loss, which improves performance by an additional 4% and improves generalization ability on out-of-distribution data. We hope the proposed benchmark and methods offer new insights and improvements in self-supervised geometric representation learning.
+                </font>
+                  <!-- </strong> -->
+              </p>
+          </div>
+      </div>
+  </div>
+
+    <!-- <hr class="divider" />
+
+    <div class="container" style="max-width: 768px;">
+      <div class="row">
+        <div class="col-md-12">
+            <h2>3D print</h2>
+        </div>
+      </div>
+
+      <video autoplay loop muted playsinline width="20%">
+        <source src="./assets/3d_print.mp4" type="video/mp4">
+      </video>
+    </div> -->
+
+    <hr class="divider">
+
+    <div class="container" style="max-width: 768px;">
+      <div class="row">
+          <div class="col-md-12">
+              <h2> Diverse Motion Generation </h2>
+              <!-- TODO: change samples!!! -->
+          </div>
+      </div>
+
+      <img src="images/4-ours-diverse-v3.png" style="max-width: 768px;">
+
+      <!-- <div class="container" style="max-width: 768px; position: relative; left: 0px;">
+        <div class="row legends">
+          <h6 class="text-left" style="position: relative; left: 25px;">Input</h6>
+          <h6 class="text-left" style="position: relative; left: 60px;">Multimodal Shape Completion</h6>
+          <h6 class="text-left" style="position: relative; left: 100px;">Input</h6>
+          <h6 class="text-left" style="position: relative; left: 140px;">Multimodal Shape Completion</h6>
+        </div>
+      </div> -->
+
+      <p> <font style="font-weight: bold;"> Diverse Environment-aware Motion Generation. </font> We show the diverse motion generations in different environments. 
+        <font style="font-style: italic;"> (Top) </font> We show 4D generation given different starting poses G0.
+        <font style="font-style: italic;"> (Bottom) </font> We show diverse motion outputs given the same starting pose in the same scene.
+        The proposed method can generate diverse motions in different environments.
+      </p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="container" style="max-width: 768px;">
+      <div class="row">
+          <div class="col-md-12">
+              <h2>Diverse Motion Generation (Multi-view)</h2>
+          </div>
+      </div>
+
+      <img src="images/a3-more-results-out.png" style="max-width: 768px;">
+
+      <p> <font style="font-weight: bold;"> Diverse Environment-aware Motion Generation. </font> We show the diverse motion generations rendering in multi-view.
+  
+      </p>
+
+    </div>
+
+    <hr class="divider">
+
+    <div class="container" style="max-width: 768px;">
+      <div class="row">
+          <div class="col-md-12">
+              <h2>Diverse Textures for Foreground and Background Objects</h2>
+          </div>
+      </div>
+
+      <img src="images/4-diff-tex-v3-out.png" style="max-width: 768px;">
+
+      <p> <font style="font-weight: bold;"> Diverse textures. </font> We adopt <a href="https://daveredrum.github.io/Text2Tex/">Text2Tex</a> and 
+        <a href="https://daveredrum.github.io/SceneTex/">SceneTex</a> to perform diverse texturing to both foreground objects and background scenes.
+      </p>
+
+    <hr class="divider">
+
+    <div class="container" style="max-width: 768px;">
+      <div class="row">
+          <div class="col-md-12">
+              <h2>Overview of Virtual Pets</h2>
+          </div>
+      </div>
+
+      <img src="images/2-overview-p2-v4-out.png" style="max-width: 768px;">
+
+      <p> <font style="font-weight: bold;"> The proposed framework of Virtual Pets. </font> 
+        <font style="font-style: italic;"> (Left) </font> To extract 3D shapes and motions from monocular videos: we first learn a Species
+        Articulated Template Model with an <a href="https://github.com/gengshan-y/rac">articulated NeRF</a> using a collection of cat videos. We then perform Per-Video Fine-tuning.
+        For each video, we further reconstruct the background with a static NeRF. The articulated NeRF trained in species-level stage is loaded
+        and fine-tuned in this stage to make sure the motions, which are Trajectory and Articulation, respect the reconstructed background shape.
+        <br <font="" style="font-style: italic;"> (Right)  After that, we train an environment-aware 3D motion generator with a Trajectory VAE and an Articulation VAE. It generates 3D motions
+        based on vertices of the foreground limbs, distance from foreground to background, and pointclouds sampled from the background
+      </p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="container" style="max-width: 768px;">
+      <div class="row">
+          <div class="col-md-12">
+              <h2>Inference</h2>
+          </div>
+      </div>
+
+      <img src="images/2-overview-p3-v3-out.png" style="max-width: 768px;">
+
+      <p> <font style="font-weight: bold;"> Inference: Texturing and Rendering. </font> 
+        At the inference time, given textureless foreground and background meshes, we first adopt <a href="https://daveredrum.github.io/Text2Tex/">Text2Tex</a> and 
+        <a href="https://daveredrum.github.io/SceneTex/">SceneTex</a> to texture the meshes. Meanwhile, we generate the motion sequence using the trained trajectory VAE 
+        and articulation VAE. We then obtain the final predicted foreground mesh after deformation and transformation. 
+        Finally, the 3D motion sequences and the 3D scene are rendered to videos given camera poses.
+      </p>
+    </div>
+
+    <hr class="divider">
+    
+    <!-- <div class="container" style="max-width: 768px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Citation</h2>
+                <code>
+                    @inproceedings{cheng2023VirtualPets,<br>
+                        title  = {{V}irtual {P}ets: nimatable Animal Generation in 3D Scenes},<br>
+                        author={Cheng, Yen-Chi and Lee, Hsin-Ying and Tulyakov, Sergey and Schwing, Alexander G and Gui, Liang-Yan},<br>
+                        booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},<br>
+                        pages={4456--4465},<br>
+                        year={2023},<br>
+                }</code>
+            </div>
+        </div>
+    </div> -->
+    <div class="container" style="max-width: 768px;">
+      <div class="row">
+          <div class="col-md-12">
+              <h2>Citation</h2>
+              <code>
+                  @article{cheng2023VirtualPets,<br>
+                    �&nbsp; title  = {{V}irtual {P}ets: Animatable Animal Generation in 3D Scenes},<br>
+                    �&nbsp; author={Cheng, Yen-Chi and Lin, Chieh Hubert and Wang, Chaoyang and Kant, Yash and Tulyakov, Sergey and Schwing, Alexander G and Gui, Liangyan and Lee, Hsin-Ying},<br>
+                    �&nbsp; journal = {arXiv preprint arXiv:2312.14154},<br>
+                    �&nbsp; year={2023},<br>
+              }</code>
+          </div>
+      </div>
+  </div>
+
+
+<!--     <hr class="divider" />
+    <div class="container" style="max-width: 768px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Citation</h2>
+                <code>
+                    @article{cheng2022VirtualPets,<br>
+                      author = {Cheng, Yen-Chi and Lee, Hsin-Ying and Tuyakov, Sergey and Schwing, Alex and Gui, Liangyan},<br>
+                      title  = {{VirtualPets}: Multimodal 3D Shape Completion, Reconstruction, and Generation},<br>
+                      journal = {arXiv},<br>
+                      year   = {2022},<br>
+                }</code>
+            </div>
+        </div>
+    </div> -->
+
+    <hr class="divider">
+
+    <div class="container" style="max-width: 768px;">
+      <div class="row">
+          <div class="col-md-12">
+            <h2>Acknowledgement</h2>
+          </div>
+          <h6> This webpage is borrowed from <a href="https://dreamfusion3d.github.io/">DreamFusion</a>. Thanks for their beautiful website! </h6>
+      </div>
+    </div>
+
+    <script src="https://polyfill.io/v3/polyfill.js?features=IntersectionObserver"></script>
+    <script src="/assets/js/yall.js"></script>
+    <script>
+        yall(
+            {
+                observeChanges: true
+            }
+        );
+    </script>
+    <script src="/assets/js/scripts.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/webflow.fd002feec.js"></script>
+    <!-- Import the component -->
+
+
+
+</div></body></html>
