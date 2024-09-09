@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-08-01 15:59:00-0400
+date: 2023-04-29 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-[Pose-Aware Self-Supervised Learning](./trajSSL) accepted to ECCV 2024 as an oral presentation!
+[INSIGHT](https://drive.google.com/file/d/1heqxtlgapXWqZcuMbpGi11v_sebkY5Wy) accepted to MICCAI 2024!

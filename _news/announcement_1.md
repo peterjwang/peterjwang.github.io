@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Pose-Aware Self-Supervised Learning](./trajSSL) accepted to ECCV 2024 as an oral presentation!
+[Pose-Aware Self-Supervised Learning](./trajSSL) accepted to ECCV 2024 as an oral presentation! 🎊
