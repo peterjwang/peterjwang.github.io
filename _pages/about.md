@@ -2,10 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: >
-    <p><a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+subtitle: Postdoc, <a href='https://www.caltech.edu/'>Caltech</a>. peterw at caltech dot edu
 
 profile:
   align: right
@@ -19,8 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a postdoctoral researcher in the [Anima AI + Science Lab](http://tensorlab.cms.caltech.edu/users/anima/) and the [Computing + Mathematical Sciences Department](https://cms.caltech.edu/) at California Institute of Technology. Prior to joining Caltech, I completed my Ph.D. in [Vision Science](https://vision.berkeley.edu/) and [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/), where I worked with [Stella Yu](https://web.eecs.umich.edu/~stellayu/) on fundamental machine learning and computer vision models and [Meng Lin](https://optometry.berkeley.edu/people/meng-lin/) on applying them to healthcare. My research lies at the intersection of machine learning, computer vision and AI for healthcare. I am currently on the job market.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Research Interest:** My research lies at the intersection of machine learning, computer vision and AI for healthcare. I develop machine learning (ML) and computer vision (CV) methods to address data insufficiency and model interpretability challenges. My techniques leverage physics simulations, reduce human supervision by learning from imbalanced data, and enhance interpretability through multi-level structure-aware representations. My goal is to incorporate domain knowledge into data-driven and interpretable models that not only perform well but also facilitate scientific discovery and provide insights for scientists and stakeholders. Notably, we developed the first method that can reconstruct lung anatomy with the commercial ultrasound device. More details can be found in my [research statement](./assets/research_statement.pdf). 
