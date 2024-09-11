@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0050)https://liuziwei7.github.io/projects/LongTail.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-74HLNF6JZD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-74HLNF6JZD');
+</script>
+<title>Orthogonal Convolutional Neural Networks</title>
+
+<!-- Meta tags for search engines to crawl -->
+<meta name="robots" content="index,follow">
+<meta name="description" content="Deep neural networks can efficiently process the 3D point cloud data. At each layer, the network needs to partition points into multiple local patches, and then learn features from them, in order to understand the geometric information encoded in the 3D point cloud.Previous networks adopt all the same local patches for different layers, as they utilized the same fixed original 3D point coordinates to define local neighborhoods. It is easy to implement but not necessarily optimal. Ideally local patches should be different at different layers so as to adapt to the specific layer for efficient feature learning. One way to achieve this is to learn different transformations of the original point cloud at each layer, and then learn features from local patches defined on transformed coordinates. In this work, we propose a novel approach to learn different non-rigid transformations of the input point cloud for different local neighborhoods at each layer. We propose both linear (affine) and non-linear (projective and deformable) spatial transformer for 3D points. With spatial transformers on theShapeNet part segmentation dataset, the network achieves higher accuracy for all categories, specifically with 8% gain on earphones and rockets. The proposed methods also outperform the state-of-the-art methods in several other point cloud processing tasks(classification, semantic segmentation and detection). Visualizations show that spatial transformers can learn features more efficiently by altering local neighborhoods according to the semantic information of 3D shapes regardless of variations in a category.">
+<meta name="keywords" content="point cloud; transformation;  segmentation; 3D detection; deep learning">
+<link rel="author" href="https://samaonline.github.io/">
+
+<!-- Fonts and stuff -->
+<link href="./spn/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./spn/project.css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="./spn/iconize.css">
+<script async="" src="./spn/prettify.js"></script>
+
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="content-inner">
+      
+      <div class="section head">
+	<h1>Orthogonal Convolutional Neural Networks</h1>
+
+	<div class="authors">
+	  <a href="http://pwang.pw/">Jiayun Wang</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  	  <a href="https://redwood.berkeley.edu/people/yubei-chen/">Yubei Chen</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://rudra1988.github.io/">Rudrasis Chakraborty</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://www1.icsi.berkeley.edu/~stellayu/">Stella X. Yu</a>
+	</div>
+
+	<div class="affiliations">
+
+	   <a href="https://www.berkeley.edu/">UC Berkeley</a>
+	</div>
+
+	<div class="venue">IEEE Conference on Computer Vision and Pattern Recognition (<a href="http://cvpr2020.thecvf.com/" target="_blank">CVPR</a>) 2020  </div>
+      </div>
+      
+      <center><img src="./spn/ocnn_intro.png" border="0" width="80%"></center>
+
+<div class="section abstract">
+	<h2>Abstract</h2>
+	<br>
+	<p>
+Deep convolutional neural networks are hindered by training instability and feature redundancy towards further performance improvement. A promising solution is to impose orthogonality on convolutional filters.<br><br>
+We develop an efficient approach to impose filter orthogonality on a convolutional layer based on the doubly block-Toeplitz matrix representation of the convolutional kernel instead of using the common kernel orthogonality approach, which we show is only necessary but not sufficient for ensuring orthogonal convolutions.<br><br>
+Our proposed orthogonal convolution requires no additional parameters and little computational overhead. This method consistently outperforms the kernel orthogonality alternative on a wide range of tasks such as image classification and inpainting under supervised, semi-supervised and unsupervised settings. Further, it learns more diverse and expressive features with better training stability, robustness, and generalization.
+	</p>
+      </div>
+
+<div class="section demo">
+	<h2>Public Video</h2>
+	<br>
+	<center>
+		<iframe width="810" height="480" src="https://www.youtube.com/embed/GVT8syBZXOo" allowfullscreen="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	    </center>
+	    	    </div>
+
+<br>
+      
+<div class="section materials">
+	<h2>Materials</h2>
+	<center>
+	  <ul>
+           
+          <li class="grid">
+	      <div class="griditem">
+		<a href="https://arxiv.org/abs/1911.12207" target="_blank" class="imageLink"><img src="./spn/paper.png"></a><br>
+		  <a href="https://arxiv.org/abs/1911.12207" target="_blank">Paper</a>
+		</div>
+	      </li>
+
+	      <li class="grid">
+	      <div class="griditem">
+		<a href="./res/pdf/ocnn_poster.pdf" target="_blank" class="imageLink"><img src="./spn/poster.png"></a><br>
+		  <a href="./res/pdf/ocnn_poster.pdf" target="_blank">Poster</a>
+
+		</div>
+	      </li>
+	  
+	      <li class="grid">
+	      <div class="griditem">
+		<a href="./res/pdf/ocnn_slides.pdf" target="_blank" class="imageLink"><img src="./spn/slides.png"></a><br>
+		  <a href="./res/pdf/ocnn_slides.pdf" target="_blank">Slides</a>
+		
+		</div>
+	      </li>
+
+	    </ul>
+	    </center>
+	    </div>
+	    
+<br>
+
+
+<div class="section code">
+	<h2>Code and Models</h2>
+	<center>
+	  <ul>
+           
+          <li class="grid">
+	      <div class="griditem">
+		<a href="https://github.com/samaonline/Orthogonal-Convolutional-Neural-Networks" target="_blank" class="imageLink"><img src="./spn/code.png"></a><br>
+		  <a href="https://github.com/samaonline/Orthogonal-Convolutional-Neural-Networks" target="_blank">Code and Models</a>
+		</div>
+	      </li>
+
+	    </ul>
+	    </center>
+	    </div>
+
+<br>
+
+
+<div class="section citation">
+	<h2>Citation</h2>
+	<div class="section bibtex">
+	  <pre>@inproceedings{wang2019orthogonal,
+  title={Orthogonal Convolutional Neural Networks},
+  author={Wang, Jiayun and Chen, Yubei and Chakraborty, Rudrasis and Yu, Stella X},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2020}
+}</pre>
+	  </div>
+      </div>
+
+</div></div></body></html>
