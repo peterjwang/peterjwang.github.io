@@ -21,10 +21,7 @@ achieved promising progress. One of the key issues for deep
 learning based person Re-ID is the selection of proper similarity comparison criteria, and the performance of learned
 features using existing criterion based on pairwise similarity is still limited, because only Point to Point (P2P) distances are mostly considered. In this paper, we present a
 novel person Re-ID method based on Point to Set similarity comparison. The Point to Set (P2S) metric can jointly
-minimize the intra-class distance and maximize the interclass distance, while back-propagating the gradient to optimize parameters of the deep model. By utilizing our proposed P2S metric, the learned deep model can effectively
-distinguish different persons by learning discriminative and
-stable feature representations. Comprehensive experimental evaluations on 3DPeS, CUHK01, PRID2011 and Market1501 datasets demonstrate the advantages of our method
-over the state-of-the-art approaches.},
+minimize the intra-class distance and maximize the interclass distance, while back-propagating the gradient to optimize parameters of the deep model.},
   pdf={http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_Point_to_Set_CVPR_2017_paper.pdf},
   html={https://openaccess.thecvf.com/content_cvpr_2017/html/Zhou_Point_to_Set_CVPR_2017_paper.html},
 }
@@ -39,7 +36,24 @@ over the state-of-the-art approaches.},
     pdf={https://arxiv.org/pdf/1712.01511.pdf},
     html={https://arxiv.org/abs/1712.01511},
     code={https://github.com/samaonline/AIC_dualloss},
-    abstract={},
+    abstract={Deep neural networks can be effective means to
+automatically classify aerial images but is easy to overfit to
+the training data. It is critical for trained neural networks to
+be robust to variations that exist between training and test
+environments. To address the overfitting problem in aerial image
+classification, we consider the neural network as successive transformations of an input image into embedded feature representations and ultimately into a semantic class label, and train neural
+networks to optimize image representations in the embedded
+space in addition to optimizing the final classification score. We
+demonstrate that networks trained with this dual embedding
+and classification loss outperform networks with classification
+loss only. We also find that moving the embedding loss from
+commonly-used feature space to the classifier space, which is
+the space just before softmax nonlinearization, leads to the best
+classification performance for aerial images. Visualizations of the
+network’s embedded representations reveal that the embedding
+loss encourages greater separation between target class clusters
+for both training and testing partitions of two aerial image
+classification benchmark datasets.},
 }
 
 @article{wang2018deep,
@@ -55,7 +69,7 @@ over the state-of-the-art approaches.},
   pdf={https://arxiv.org/pdf/1707.00409},
   html={http://www.sciencedirect.com/science/article/pii/S0031320317303771},
   code={https://github.com/samaonline/Deep-Ranking-Model-by-Large-Adaptive-Margin-Learning-for-Person-Re-identification},
-  abstract={}
+  abstract={Person re-identification aims to match images of the same person across disjoint camera views, which is a challenging problem in video surveillance. The major challenge of this task lies in how to preserve the similarity of the same person against large variations caused by complex backgrounds, mutual occlusions and different illuminations, while discriminating the different individuals. In this paper, we present a novel deep ranking model with feature learning and fusion by learning a large adaptive margin between the intra-class distance and inter-class distance to solve the person re-identification problem. Specifically, we organize the training images into a batch of pairwise samples. Treating these pairwise samples as inputs, we build a novel part-based deep convolutional neural network (CNN) to learn the layered feature representations by preserving a large adaptive margin. As a result, the final learned model can effectively find out the matched target to the anchor image among a number of candidates in the gallery image set by learning discriminative and stable feature representations. Overcoming the weaknesses of conventional fixed-margin loss functions, our adaptive margin loss function is more appropriate for the dynamic feature space. }
 }
 
 @InProceedings{Liu_2019_CVPR,
@@ -72,7 +86,7 @@ award_name={Oral},
   website={https://liuziwei7.github.io/projects/LongTail.html},
   code={https://github.com/zhmiao/OpenLongTailRecognition-OLTR},
   blog={https://bair.berkeley.edu/blog/2019/05/13/oltr/},
-  abstract={}
+  abstract={Real world data often have a long-tailed and open-ended distribution. A practical recognition system must classify among majority and minority classes, generalize from a few known instances, and acknowledge novelty upon a never seen instance. We define Open Long-Tailed Recognition (OLTR) as learning from such naturally distributed data and optimizing the classification accuracy over a balanced test set which include head, tail, and open classes. OLTR must handle imbalanced classification, few-shot learning, and open-set recognition in one integrated algorithm, whereas existing classification approaches focus only on one aspect and deliver poorly over the entire class spectrum. The key challenges are how to share visual knowledge between head and tail classes and how to reduce confusion between tail and open classes. We develop an integrated OLTR algorithm that maps an image to a feature space such that visual concepts can easily relate to each other based on a learned metric that respects the closed-world classification while acknowledging the novelty of the open world.}
 }
 
 @InProceedings{Chakraborty_2019_CVPR_Workshops,
@@ -88,7 +102,7 @@ award_name={Best Paper},
   pdf={https://arxiv.org/pdf/1906.10048.pdf},
   html={https://ieeexplore.ieee.org/document/9025675},
   code={https://github.com/sutkarsh/cds},
-  abstract={}
+  abstract={We develop a novel deep learning architecture for naturally complex valued data, which are often subject to complex scaling ambiguity. We treat each sample as a field in the space of complex numbers. With the polar form of a complex number, the general group that acts on this space is the product of planar rotation and non-zero scaling. This perspective allows us to develop not only a novel convoluation operator using weighted Fréchet mean (wFM) on a Riemannian manifold, but also to a novel fully connected layer operator using the distance to the wFM, with natural equivariant properties to non-zero scaling and planar rotations for the former and invariance properites for the latter. We demonstrate our method on widely used SAR dataset MSTAR and RadioML dataset.}
 }
 
 
@@ -105,7 +119,7 @@ award_name={Best Paper},
     preview={feature_.gif},
   pdf={https://web.eecs.umich.edu/~stellayu/publication/doc/2019wildlifeSR.pdf},
   html={https://www.nature.com/articles/s41598-019-44565-w},
-  abstract={}
+  abstract={The implementation of intelligent software to identify and classify objects and individuals in visual fields is a technology of growing importance to operatives in many fields, including wildlife conservation and management. This study applies advanced software to classify wildlife species using camera-trap data. We trained a convolutional neural network (CNN) to classify 20 African species with 87.5% accuracy from 111,467 images. Gradient-weighted class activation mapping (Grad-CAM) revealed key features, and mutual information methods identified neurons responding strongly to specific species, exposing dataset biases. Hierarchical clustering produced a visual similarity dendrogram, and we evaluated the model’s ability to recognize known and unfamiliar species from images outside the training set.}
 }
 
 @article{wang2019deep,
@@ -122,7 +136,8 @@ award_name={Best Paper},
   pdf={https://web.eecs.umich.edu/~stellayu/publication/doc/2019meiboTVST.pdf},
   html={https://doi.org/10.1167/tvst.8.6.37},
   code={https://github.com/samaonline/mg-psp},
-  abstract={}
+  abstract={Purpose: To develop a deep learning approach to digitally segmenting meibomian gland atrophy area and computing percent atrophy in meibography images.
+Methods: A total of 706 meibography images with corresponding meiboscores were collected and annotated for each one with eyelid and atrophy regions. The dataset was then divided into the development and evaluation sets. The development set was used to train and tune the deep learning model, while the evaluation set was used to evaluate the performance of the model. Conclusions: The proposed deep learning approach can automatically segment the total eyelid and meibomian gland atrophy regions, as well as compute percent atrophy with high accuracy and consistency. This provides quantitative information of the gland atrophy severity based on meibography images.}
 }
 
 
@@ -142,7 +157,10 @@ award_name={Best Paper},
   slides={ocnn_slides.pdf},
   video={https://youtu.be/GVT8syBZXOo},
   poster={ocnn_poster.pdf},
-  abstract={},
+  abstract={Deep convolutional neural networks are hindered by training instability and feature redundancy towards further performance improvement. A promising solution is to impose orthogonality on convolutional filters.
+We develop an efficient approach to impose filter orthogonality on a convolutional layer based on the doubly block-Toeplitz matrix representation of the convolutional kernel instead of using the common kernel orthogonality approach, which we show is only necessary but not sufficient for ensuring orthogonal convolutions.
+Our proposed orthogonal convolution requires no additional parameters and little computational overhead. This method consistently outperforms the kernel orthogonality alternative on a wide range of tasks such as image classification and inpainting under supervised, semi-supervised and unsupervised settings. Further, it learns more diverse and expressive features with better training stability, robustness, and generalization.
+},
 }
 
 
@@ -162,7 +180,7 @@ award_name={Best Paper},
   code={https://github.com/samaonline/spatial-transformer-for-3d-point-clouds},
   video={https://youtu.be/UAijTLXkupQ},
   poster={spn_poster.pdf},
-  abstract={}
+  abstract={Deep neural networks can efficiently process 3D point clouds. At each point convolution layer, local features can be learned from local neighborhoods of the point cloud. These features are combined together for further processing in order to extract the semantic information encoded in the point cloud. Previous networks adopt all the same local neighborhoods at different layers, as they utilize the same metric on fixed input point coordinates to define local neighborhoods. It is easy to implement but not necessarily optimal. Ideally local neighborhoods should be different at different layers so as to adapt to layer dynamics for efficient feature learning. One way to achieve this is to learn different transformations of the input point cloud at each layer, and then extract features from local neighborhoods defined on transformed coordinates. In this work, we propose a novel end-to-end approach to learn different non-rigid transformations of the input point cloud for different local neighborhoods at each layer. We propose both linear (affine) and non-linear (projective and deformable) spatial transformers for 3D point clouds.}
 }
 
 @article{wang2021quantifying,
@@ -179,7 +197,7 @@ award_name={Best Paper},
   pdf={https://escholarship.org/content/qt7745h7zm/qt7745h7zm.pdf},
   html={https://pubmed.ncbi.nlm.nih.gov/34469930/},
   code={https://github.com/samaonline/gland-segmentation-release},
-  abstract={}
+  abstract={Quantifying meibomian gland morphology from meibography images is used for the diagnosis, treatment, and management of meibomian gland dysfunction in clinics. A novel and automated method is described for quantifying meibomian gland morphology from meibography images. Meibomian gland morphological abnormality is a common clinical sign of meibomian gland dysfunction, yet there exist no automated methods that provide standard quantifications of morphological features for individual glands. This study introduces an automated artificial intelligence approach to segmenting individual meibomian gland regions in infrared meibography images and analyzing their morphological features.}
 }
 
 @article{liu2022open,
@@ -196,7 +214,7 @@ award_name={Best Paper},
   pdf={https://arxiv.org/pdf/2208.08349.pdf},
   html={https://doi.ieeecomputersociety.org/10.1109/TPAMI.2022.3200091},
   code={https://github.com/zhmiao/OpenLongTailRecognition-OLTR},
-  abstract={}
+  abstract={Real world data often exhibits a long-tailed and open-ended (i.e., with unseen classes) distribution. A practical recognition system must balance between majority (head) and minority (tail) classes, generalize across the distribution, and acknowledge novelty upon the instances of unseen classes (open classes). We define Open Long-Tailed Recognition++ (OLTR++) as learning from such naturally distributed data and optimizing for the classification accuracy over a balanced test set which includes both known and open classes. OLTR++ handles imbalanced classification, few-shot learning, open-set recognition, and active learning in one integrated algorithm, whereas existing classification approaches often focus only on one or two aspects and deliver poorly over the entire spectrum. The key challenges are: 1) how to share visual knowledge between head and tail classes, 2) how to reduce confusion between tail and open classes, and 3) how to actively explore open classes with learned knowledge. Our algorithm, OLTR++, maps images to a feature space such that visual concepts can relate to each other through a memory association mechanism and a learned metric (dynamic meta-embedding) that both respects the closed world classification of seen classes and acknowledges the novelty of open classes. Additionally, we propose an active learning scheme based on visual memory, which learns to recognize open classes in a data-efficient manner for future expansions. On three large-scale open long-tailed datasets we curated from ImageNet (object-centric), Places (scene-centric), and MS1M (face-centric) data, as well as three standard benchmarks (CIFAR-10-LT, CIFAR-100-LT, and iNaturalist-18), our approach, as a unified framework, consistently demonstrates competitive performance. Notably, our approach also shows strong potential for the active exploration of open classes and the fairness analysis of minority groups.}
 }
 
 
@@ -213,7 +231,7 @@ award_name={Best Paper},
     preview={ssketch.png},
   pdf={https://arxiv.org/pdf/2209.02834.pdf},
   code={https://github.com/samaonline/Unsupervised-Scene-Sketch-to-Photo-Synthesis},
-  abstract={},
+  abstract={Sketches make an intuitive and powerful visual expression as they are fast executed freehand drawings. We present a method for synthesizing realistic photos from scene sketches. Without the need for sketch and photo pairs, our framework directly learns from readily available large-scale photo datasets in an unsupervised manner. To this end, we introduce a standardization module that provides pseudo sketch-photo pairs during training by converting photos and sketches to a standardized domain, i.e. the edge map. The reduced domain gap between sketch and photo also allows us to disentangle them into two components: holistic scene structures and low-level visual styles such as color and texture. Taking this advantage, we synthesize a photo-realistic image by combining the structure of a sketch and the visual style of a reference photo. Extensive experimental results on perceptual similarity metrics and human perceptual studies show the proposed method could generate realistic photos with high fidelity from scene sketches and outperform state-of-the-art photo synthesis baselines. We also demonstrate that our framework facilitates a controllable manipulation of photo synthesis by editing strokes of corresponding sketches, delivering more fine-grained details than previous approaches that rely on region-level editing.},
   website={https://pwang.pw/scenesketch.html},
   blog={https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiQoZjVm4H6AhW1DkQIHdKFDfoQFnoECBEQAQ&url=https%3A%2F%2Fwww.marktechpost.com%2F2022%2F09%2F06%2Fresearchers-from-uc-berkeley-and-amazon-introduce-an-unsupervised-ai-method-for-synthesizing-realistic-photos-from-scene-sketches%2F&usg=AOvVaw1EMKqFBKNl7uGM_f1NsKtC}
 }
@@ -233,7 +251,7 @@ award_name={Best Paper},
   pdf={https://web.eecs.umich.edu/~stellayu/publication/doc/2022meiboNature.pdf},
   blog={https://www.healio.com/news/optometry/20221104/ai-approach-predicts-demographic-clinical-features-from-meibography-images},
   html={https://www.nature.com/articles/s41598-022-18933-y},
-  abstract={}
+  abstract={This study introduces a deep learning approach to predicting demographic features from meibography images. A total of 689 meibography images with corresponding subject demographic data were used to develop a deep learning model for predicting gland morphology and demographics from images. The model achieved on average 77%, 76%, and 86% accuracies for predicting Meibomian gland morphological features, subject age, and ethnicity, respectively. The model was further analyzed to identify the most highly weighted gland morphological features used by the algorithm to predict demographic characteristics. The two most important gland morphological features for predicting age were the percent area of gland atrophy and the percentage of ghost glands. The two most important morphological features for predicting ethnicity were gland density and the percentage of ghost glands. The approach offers an alternative to traditional associative modeling to identify relationships between Meibomian gland morphological features and subject demographic characteristics. This deep learning methodology can currently predict demographic features from de-identified meibography images with better than 75% accuracy, a number which is highly likely to improve in future models using larger training datasets, which has significant implications for patient privacy in biomedical imaging.}
 }
 
 @inproceedings{wang20223d,
@@ -265,7 +283,7 @@ award_name={Spotlight},
   pdf={https://arxiv.org/pdf/2212.03450},
   poster={https://neurips.cc/media/PosterPDFs/NeurIPS%202022/63531.png?t=1669932150.7934783},
   slides={https://docs.google.com/presentation/d/1S_VPrUFdYSddqJNQ4zFXWvZZghucO2bBMb7R-ai7FzA/edit?usp=sharing},
-  abstract={}
+  abstract={Dry Eye Disease (DED) is one of the most common ocular diseases: over five percent of US adults suffer from DED [4]. Tear film instability is a known factor for DED, and is thought to be regulated in large part by the thin lipid layer that covers and stabilizes the tear film. In order to aid eye related disease diagnosis, this work proposes a novel paradigm in using computer vision techniques to numerically analyze the tear film lipid layer (TFLL) spread. Eleven videos of the tear film lipid layer spread are collected with a micro-interferometer and a subset are annotated. A tracking algorithm relying on various pillar computer vision techniques is developed.}
 }
 
 @inproceedings{wang2023compact,
@@ -283,7 +301,7 @@ award_name={Spotlight},
   pdf={https://arxiv.org/pdf/2107.07110.pdf},
   code={https://github.com/samaonline/Recurrent-Parameter-Generators},
   blog={https://dailyai.github.io/2021-07-16/2107-07110},
-  abstract={}
+  abstract={Deep learning has achieved tremendous success by training increasingly large models, which are then compressed for practical deployment. We propose a drastically different approach to compact and optimal deep learning: We decouple the Degrees of freedom (DoF) and the actual number of parameters of a model, optimize a small DoF with predefined random linear constraints for a large model of arbitrary architecture, in one-stage end-to-end learning. Specifically, we create a recurrent parameter generator (RPG), which repeatedly fetches parameters from a ring and unpacks them onto a large model with random permutation and sign flipping to promote parameter decorrelation. We show that gradient descent can automatically find the best model under constraints with faster convergence. Our extensive experimentation reveals a log-linear relationship between model DoF and accuracy. Our RPG demonstrates remarkable DoF reduction and can be further pruned and quantized for additional run-time performance gain. For example, in terms of top-1 accuracy on ImageNet, RPG achieves 96% of ResNet18's performance with only 18% DoF (the equivalent of one convolutional layer) and 52% of ResNet34's performance with only 0.25% DoF! Our work shows a significant potential of constrained neural optimization in compact and optimal deep learning.}
 }
 
 @inproceedings{kocielnik2023deep,
@@ -299,7 +317,7 @@ award_name={Best Paper},
   preview={deepmfusion.png},
   pdf={https://arxiv.org/pdf/2312.03231},
   html={https://proceedings.mlr.press/v225/kocielnik23a.html},
-  abstract={}
+  abstract={Quantification of real-time informal feedback delivered by an experienced surgeon to a trainee during surgery is important for skill improvements in surgical training. Such feedback in the live operating room is inherently multimodal, consisting of verbal conversations (e.g., questions and answers) as well as non-verbal elements (e.g., through visual cues like pointing to anatomic elements). In this work, we leverage a clinically-validated five-category classification of surgical feedback: “Anatomic” , “Technical” , “Procedural” , “Praise” and “Visual Aid” . We then develop a multi-label machine learning model to classify these five categories of surgical feedback from inputs of text, audio, and video modalities. The ultimate goal of our work is to help automate the annotation of real-time contextual surgical feedback at scale. This work offers an important first look at the feasibility of automated classification of real-world live surgical feedback based on text, audio, and video modalities.}
 }
 
 phdthesis{wang2023structure,
@@ -323,7 +341,8 @@ award_name={Oral},
   pdf={https://arxiv.org/pdf/2403.14973},
   website={https://pwang.pw/trajSSL},
   code={https://github.com/samaonline/Trajectory-Regularization-Enhances-Self-Supervised-Geometric-Representation},
-  abstract={}
+  abstract={Learning visual features from unlabeled images has proven successful for semantic categorization, often by mapping different views of the same object to the same feature to achieve recognition invariance. However, visual recognition involves not only identifying what an object is but also understanding how it is presented. For example, seeing a car from the side versus head-on is crucial for deciding whether to stay put or jump out of the way. While unsupervised feature learning for downstream viewpoint reasoning is important, it remains under-explored, partly due to the lack of a standardized evaluation method and benchmarks.
+We introduce a new dataset of adjacent image triplets obtained from a viewpoint trajectory, without any semantic or pose labels. We benchmark both semantic classification and pose estimation accuracies on the same visual feature. Additionally, we propose a viewpoint trajectory regularization loss for learning features from unlabeled image triplets. Our experiments demonstrate that this approach helps develop a visual representation that encodes object identity and organizes objects by their poses, retaining semantic classification accuracy while achieving emergent global pose awareness and better generalization to novel objects.}
 }
 
 
@@ -336,7 +355,7 @@ award_name={Oral},
     preview={thumbnail_mdpipe.jpg},
   pdf={https://drive.google.com/file/d/1heqxtlgapXWqZcuMbpGi11v_sebkY5Wy},
   website={https://danielchyeh.github.io/MDPipe/},
-  abstract={},
+  abstract={Accurate diagnosis of ocular surface diseases is critical in optometry and ophthalmology, which hinge on integrating clinical data sources (e.g., meibography imaging and clinical metadata). Traditional human assessments lack precision in quantifying clinical observations, while current machine-based methods often treat diagnoses as multi-class classification problems, limiting the diagnoses to a predefined closed-set of curated answers without reasoning the clinical relevance of each variable to the diagnosis. To tackle these challenges, we introduce an innovative multi-modal diagnostic pipeline (MDPipe) by employing large language models (LLMs) for ocular surface disease diagnosis. We first employ a visual translator to interpret meibography images by converting them into quantifiable morphology data, facilitating their integration with clinical metadata and enabling the communication of nuanced medical insight to LLMs. To further advance this communication, we introduce a LLM-based summarizer to contextualize the insight from the combined morphology and clinical metadata, and generate clinical report summaries. Finally, we refine the LLMs' reasoning ability with domain-specific insight from real-life clinician diagnoses. Our evaluation across diverse ocular surface disease diagnosis benchmarks demonstrates that MDPipe outperforms existing standards, including GPT-4, and provides clinically sound rationales for diagnoses.},
 }
 
 @article{tejas2024,
@@ -349,7 +368,10 @@ award_name={Oral},
      preview={parts_of_eye.jpg},
        pdf={eyeheliyon.pdf},
   html={https://www.cell.com/heliyon/fulltext/S2405-8440(24)12052-X},
-  abstract={},
+  abstract={To use artificial intelligence to identify relationships between morphological characteristics of the Meibomian glands (MGs), subject factors, clinical outcomes, and subjective symptoms of dry eye.
+ A deep learning model was trained to take meibography as input, segment the individual MG in the images, and learn their detailed morphological features. Morphological characteristics were then combined with clinical and symptom data in prediction models of MG function, tear film stability, ocular surface health, and subjective discomfort and dryness. The models were analyzed to identify the most heavily weighted features used by the algorithm for predictions.
+Machine learning-derived MG morphological characteristics were found to be important in predicting multiple signs, symptoms, and diagnoses related to MG dysfunction and dry eye. This deep learning method illustrates the rich clinical information that detailed morphological analysis of the MGs can provide, and shows promise in advancing our understanding of the role of MG morphology in ocular surface health.
+},
 }
 
 
@@ -365,7 +387,7 @@ Andrew D. Graham and Jiayun Wang and Tejasvi Kothapalli and Jennifer Ding and He
       preview={sreye.png},
   html={https://www.researchgate.net/publication/382392066_Artificial_Intelligence_Models_Utilize_Lifestyle_Factors_to_Predict_Dry_Eye-Related_Outcomes},
   slides={MGAI.pdf},
-  abstract={},
+  abstract={Purpose: To examine and interpret machine learning models that predict dry eye (DE)-related clinical signs, subjective symptoms, and clinician diagnoses by heavily weighting lifestyle factors in the predictions. Methods: Machine learning models were trained to take clinical assessments of the ocular surface, eyelids, and tear film, combined with symptom scores from validated questionnaire instruments for DE and clinician diagnoses of ocular surface diseases, and perform a classification into DE-related outcome categories. Outcomes are presented for which the data-driven algorithm identified subject characteristics, lifestyle, behaviors, or environmental exposures as heavily weighted predictors. Models were assessed by 5-fold cross-validation accuracy and class-wise statistics of the predictors. Conclusions: The results emphasize the importance of lifestyle, subject, and environmental characteristics in the etiology of ocular surface disease. Lifestyle factors should be taken into account in clinical research and care to a far greater extent than has been the case to date.},
 }
 
 
