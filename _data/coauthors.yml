@@ -45,7 +45,7 @@ chen:
     url: https://yubeichen.com/
 
 graham:
-  - firstname: ["Andrew", "Andrew D"]
+  - firstname: ["Andrew", "Andrew D", "Andrew D."]
     url: https://www.linkedin.com/in/andrew-d-graham-58401240/
 
 kothapalli:
@@ -72,7 +72,7 @@ anandkumar:
   - firstname: ["Anima"]
     url: http://tensorlab.cms.caltech.edu/
 
-leCun:
+"LeCun":
   - firstname: ["Yann"]
     url: https://yann.lecun.com/
 
@@ -89,7 +89,7 @@ ma:
     url: https://people.eecs.berkeley.edu/~yima/
 
 cheng:
-  - firstname: ["Zehou"]
+  - firstname: ["Zezhou"]
     url: https://sites.google.com/site/zezhoucheng/
 
 yao:
@@ -115,6 +115,8 @@ azizzadenesheli:
 wang:
   - firstname: ["Lihong V.", "Lihong"]
     url: http://coilab.caltech.edu/
+  - firstname: ["Chuwei"]
+    url: https://scholar.google.com/citations?user=O5GIrl4AAAAJ
 
 aborahama:
   - firstname: ["Yousuf"]
