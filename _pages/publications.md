@@ -19,7 +19,7 @@ nav_order: 3
 
 {% bibliography -f preprints %}
 
-<h1>Papers</h1>
+<h1>Conference &amp; Journal Articles</h1>
 
 {% bibliography -f papers %}
 
