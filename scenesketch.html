@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0050)https://liuziwei7.github.io/projects/LongTail.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-74HLNF6JZD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-74HLNF6JZD');
+</script>
+<title>Unsupervised Scene Sketch to Photo Synthesis</title>
+
+<!-- Meta tags for search engines to crawl -->
+<meta name="robots" content="index,follow">
+<meta name="description" content="Sketches make an intuitive and powerful visual expression as they are fast executed freehand drawings. We present a method for synthesizing realistic photos from scene sketches. Without the need for sketch and photo pairs, our framework directly learns from readily available large-scale photo datasets in an unsupervised manner. To this end, we introduce a standardization module that provides pseudo sketch-photo pairs during training by converting photos and sketches to a standardized domain, i.e. the edge map. The reduced domain gap between sketch and photo also allows us to disentangle them into two components: holistic scene structures and low-level visual styles such as color and texture. Taking this advantage, we synthesize a photo-realistic image by combining the structure of a sketch and the visual style of a reference photo. Extensive experimental results on perceptual similarity metrics and human perceptual studies show the proposed method could generate realistic photos with high fidelity from scene sketches and outperform state-of-the-art photo synthesis baselines. We also demonstrate that our framework facilitates a controllable manipulation of photo synthesis by editing strokes of corresponding sketches, delivering more fine-grained details than previous approaches that rely on region-level editing.">
+<meta name="keywords" content="sketch; scene sketch; photo synthesis; unsupervised learning">
+<link rel="author" href="https://samaonline.github.io/">
+
+<!-- Fonts and stuff -->
+<link href="./spn/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./spn/project.css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="./spn/iconize.css">
+<script async="" src="./spn/prettify.js"></script>
+
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="content-inner">
+      
+      <div class="section head">
+	<h1>Unsupervised Scene Sketch to Photo Synthesis</h1>
+
+	<div class="authors">
+	  <a href="http://pwang.pw/">Jiayun Wang</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  Sangryul Jeon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://www1.icsi.berkeley.edu/~stellayu/">Stella X. Yu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  Xi Zhang&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  Himanshu Arora&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  Yu Lou&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</div>
+
+	<div class="affiliations">
+
+	  <a href="https://www.berkeley.edu/">UC Berkeley / ICSI</a> and <a href="https://www.amazon.science/">Amazon</a>
+	</div>
+
+	<div class="venue"><a href="https://arxiv.org/abs/2209.02834" target="_blank">ECCVW</a> 2022 </div>
+      </div>
+      
+      <center><img src="./spn/scenesketch.png" border="0" width="80%"></center>
+
+<div class="section abstract">
+	<h2>Abstract</h2>
+	<br>
+Sketches make an intuitive and powerful visual expression as they are fast executed freehand drawings. We present a method for synthesizing realistic photos from scene sketches. Without the need for sketch and photo pairs, our framework directly learns from readily available large-scale photo datasets in an unsupervised manner. To this end, we introduce a standardization module that provides pseudo sketch-photo pairs during training by converting photos and sketches to a standardized domain, i.e. the edge map. The reduced domain gap between sketch and photo also allows us to disentangle them into two components: holistic scene structures and low-level visual styles such as color and texture. Taking this advantage, we synthesize a photo-realistic image by combining the structure of a sketch and the visual style of a reference photo. Extensive experimental results on perceptual similarity metrics and human perceptual studies show the proposed method could generate realistic photos with high fidelity from scene sketches and outperform state-of-the-art photo synthesis baselines. We also demonstrate that our framework facilitates a controllable manipulation of photo synthesis by editing strokes of corresponding sketches, delivering more fine-grained details than previous approaches that rely on region-level editing.
+      </div>
+
+<div class="section demo">
+	<h2>Public Video</h2>
+	<br>
+	<center>
+		<iframe width="810" height="480" src="https://www.youtube.com/embed/gujLrIdOpTE" allowfullscreen="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	    </center>
+	    </div>
+
+<br>
+      
+<div class="section materials">
+	<h2>Materials</h2>
+	<center>
+	  <ul>
+           
+          <li class="grid">
+	      <div class="griditem">
+		<a href="https://arxiv.org/pdf/2209.02834.pdf" target="_blank" class="imageLink"><img src="./spn/paper.png"></a><br>
+		  <a href="https://arxiv.org/pdf/2209.02834.pdf" target="_blank">Paper</a>
+		</div>
+	      </li>
+
+	      <li class="grid">
+	      <div class="griditem">
+		<a href="./res/pdf/scenesketch.pdf" target="_blank" class="imageLink"><img src="./spn/slides.png"></a><br>
+		  <a href="./res/pdf/scenesketch.pdf" target="_blank">Slides</a>
+		</div>
+	      </li>
+	  
+	    </ul>
+	    </center>
+	    </div>
+	    
+<br>
+
+
+<div class="section code">
+	<h2>Code</h2>
+	<center>
+	  <ul>
+           
+          <li class="grid">
+	      <div class="griditem">
+		<a href="https://github.com/samaonline/Unsupervised-Scene-Sketch-to-Photo-Synthesis" target="_blank" class="imageLink"><img src="./spn/code.png"></a><br>
+		  <a href="https://github.com/samaonline/Unsupervised-Scene-Sketch-to-Photo-Synthesis" target="_blank">Code and Models</a>
+		</div>
+	      </li>
+
+	    </ul>
+	    </center>
+	    </div>
+
+<br>
+
+
+<div class="section citation">
+	<h2>Citation</h2>
+	<div class="section bibtex">
+	  <pre>@article{wang2022unsupervised,
+  title={Unsupervised Scene Sketch to Photo Synthesis},
+  author={Wang, Jiayun and Jeon, Sangryul and Yu, Stella X and Zhang, Xi and Arora, Himanshu and Lou, Yu},
+  journal={arXiv preprint arXiv:2209.02834},
+  year={2022}
+}</pre>
+	  </div>
+      </div>
+
+</div></div></body></html>

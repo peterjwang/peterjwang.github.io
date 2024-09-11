@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0050)https://liuziwei7.github.io/projects/LongTail.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-74HLNF6JZD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-74HLNF6JZD');
+</script>
+<title>Compact and Optimal Deep Learning with Recurrent Parameter Generators</title>
+
+<!-- Meta tags for search engines to crawl -->
+<meta name="robots" content="index,follow">
+<meta name="description" content="Deep learning has achieved tremendous success by training increasingly large models, which are then compressed for practical deployment. We propose a drastically different approach to compact and optimal deep learning: We decouple the Degrees of freedom (DoF) and the actual number of parameters of a model, optimize a small DoF with predefined random linear constraints for a large model of arbitrary architecture, in one-stage end-to-end learning. Specifically, we create a recurrent parameter generator (RPG), which repeatedly fetches parameters from a ring and unpacks them onto a large model with random permutation and sign flipping to promote parameter decorrelation. We show that gradient descent can automatically find the best model under constraints with faster convergence. Our extensive experimentation reveals a log-linear relationship between model DoF and accuracy. Our RPG demonstrates remarkable DoF reduction and can be further pruned and quantized for additional run-time performance gain. For example, in terms of top-1 accuracy on ImageNet, RPG achieves 96% of ResNet18's performance with only 18% DoF (the equivalent of one convolutional layer) and 52% of ResNet34's performance with only 0.25% DoF! Our work shows a significant potential of constrained neural optimization in compact and optimal deep learning.">
+<meta name="keywords" content="compact learning, deep learning, network compression, pruning">
+<link rel="author" href="https://samaonline.github.io/">
+
+<!-- Fonts and stuff -->
+<link href="./spn/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./spn/project.css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="./spn/iconize.css">
+<script async="" src="./spn/prettify.js"></script>
+
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="content-inner">
+      
+      <div class="section head">
+	<h1>Compact and Optimal Deep Learning with Recurrent Parameter Generators</h1>
+
+	<div class="authors">
+	  <a href="http://pwang.pw/">Jiayun Wang</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://redwood.berkeley.edu/people/yubei-chen/">Yubei Chen</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://www1.icsi.berkeley.edu/~stellayu/">Stella X. Yu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://scholar.google.com/citations?user=7N-ethYAAAAJ&hl=en">Brian Cheung</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="http://yann.lecun.com/">Yann LeCun</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</div>
+
+	<div class="affiliations">
+
+	  <a href="https://www.berkeley.edu/">UC Berkeley / ICSI</a>,  <a href="https://umich.edu/">University of Michigan</a>, <a href="https://ai.facebook.com/">Meta AI</a>, <a href="https://cds.nyu.edu/">New York University</a>, <a href="https://www.csail.mit.edu/">MIT CSAIL & BCS</a>
+	</div>
+
+	<div class="venue"><a href="https://arxiv.org/abs/2107.07110" target="_blank">WACV</a> 2023 </div>
+      </div>
+      
+      <center><img src="./spn/rpg.png" border="0" width="80%"></center>
+
+<div class="section abstract">
+	<h2>Abstract</h2>
+	<br>
+Deep learning has achieved tremendous success by training increasingly large models, which are then compressed for practical deployment. We propose a drastically different approach to compact and optimal deep learning: We decouple the Degrees of freedom (DoF) and the actual number of parameters of a model, optimize a small DoF with predefined random linear constraints for a large model of arbitrary architecture, in one-stage end-to-end learning. Specifically, we create a recurrent parameter generator (RPG), which repeatedly fetches parameters from a ring and unpacks them onto a large model with random permutation and sign flipping to promote parameter decorrelation. We show that gradient descent can automatically find the best model under constraints with faster convergence. Our extensive experimentation reveals a log-linear relationship between model DoF and accuracy. Our RPG demonstrates remarkable DoF reduction and can be further pruned and quantized for additional run-time performance gain. For example, in terms of top-1 accuracy on ImageNet, RPG achieves 96% of ResNet18's performance with only 18% DoF (the equivalent of one convolutional layer) and 52% of ResNet34's performance with only 0.25% DoF! Our work shows a significant potential of constrained neural optimization in compact and optimal deep learning.
+      </div>
+
+<div class="section demo">
+	<h2>Public Video</h2>
+	<br>
+	<center>
+		<iframe width="810" height="480" src="https://www.youtube.com/embed/9S-mad1jExk" allowfullscreen="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	    </center>
+	    </div>
+
+<br>
+      
+<div class="section materials">
+	<h2>Materials</h2>
+	<center>
+	  <ul>
+           
+          <li class="grid">
+	      <div class="griditem">
+		<a href="https://arxiv.org/pdf/2107.07110.pdf" target="_blank" class="imageLink"><img src="./spn/paper.png"></a><br>
+		  <a href="https://arxiv.org/pdf/2107.07110.pdf" target="_blank">Paper</a>
+		</div>
+	      </li>
+
+	      <li class="grid">
+	      <div class="griditem">
+		<a href="./res/pdf/rpg_poster.pdf" target="_blank" class="imageLink"><img src="./spn/poster.png"></a><br>
+		  <a href="./res/pdf/rpg_poster.pdf" target="_blank">Poster</a>
+
+		</div>
+	      </li>
+
+	      <li class="grid">
+	      <div class="griditem">
+		<a href="./res/pdf/rpg_slides.pdf" target="_blank" class="imageLink"><img src="./spn/slides.png"></a><br>
+		  <a href="./res/pdf/rpg_slides.pdf" target="_blank">Slides</a>
+		</div>
+	      </li>
+	  
+	    </ul>
+	    </center>
+	    </div>
+	    
+<br>
+
+
+<div class="section code">
+	<h2>Code</h2>
+	<center>
+	  <ul>
+           
+          <li class="grid">
+	      <div class="griditem">
+		<a href="https://github.com/samaonline/Recurrent-Parameter-Generators" target="_blank" class="imageLink"><img src="./spn/code.png"></a><br>
+		  <a href="https://github.com/samaonline/Recurrent-Parameter-Generators" target="_blank">Code and Models</a>
+		</div>
+	      </li>
+
+	    </ul>
+	    </center>
+	    </div>
+
+<br>
+
+
+<div class="section citation">
+	<h2>Citation</h2>
+	<div class="section bibtex">
+	  <pre>@article{wang2021recurrent,
+  title={Compact and Optimal Deep Learning with Recurrent Parameter Generators},
+  author={Wang, Jiayun and Chen, Yubei and Yu, Stella X and Cheung, Brian and LeCun, Yann},
+  journal={arXiv preprint arXiv:2107.07110},
+  year={2021}
+}</pre>
+	  </div>
+      </div>
+
+</div></div></body></html>
