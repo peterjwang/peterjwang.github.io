@@ -15,6 +15,12 @@ nav_order: 3
 
 <div class="publications">
 
-{% bibliography %}
+<h1>preprints</h1>
+
+{% bibliography -f preprints %}
+
+<h1>Papers</h1>
+
+{% bibliography -f papers %}
 
 </div>
