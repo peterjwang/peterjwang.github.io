@@ -1,134 +1,133 @@
-"zhou":
+zhou:
   - firstname: ["S.", "Sanping"]
     url: https://scholar.google.com/citations?user=2Drvv44AAAAJ
   - firstname: ["Di"]
     url: https://dizhou-flow.github.io/
 
-"yu"
+yu:
   - firstname: ["Stella X.", "Stella"]
     url: https://web.eecs.umich.edu/~stellayu/
   - firstname: ["Qian"]
     url: https://jieruilin.github.io/
 
-"Virtue"
+Virtue:
   - firstname: ["Pat", "Patrick"]
     url: https://www.cs.cmu.edu/~pvirtue/
 
-"lin"
+lin:
   - firstname: ["Meng C.", "Meng"]
     url: https://eyecare.berkeley.edu/doctors/meng-lin/
   - firstname: ["Jierui"]
     url: https://jieruilin.github.io/
 
-"Miao"
+Miao:
   - firstname: ["Zhongqi"]
     url: https://scholar.google.com/citations?user=at4m2mYAAAAJ
 
-"Gaynor"
+Gaynor:
   - firstname: ["Kaitlyn"]
     url: https://gaynorlab.weebly.com
 
-"Liu"
+Liu:
   - firstname: ["Ziwei"]
     url: https://liuziwei7.github.io/
 
-"Chakraborty"
+Chakraborty:
   - firstname: ["Rudrasis"]
     url: https://rudra1988.github.io/
 
-"Gong"
+Gong:
   - firstname: ["Boqing"]
     url: http://boqinggong.info/
 
-"Chen"
+Chen:
   - firstname: ["Yubei"]
     url: https://yubeichen.com/
 
-"Graham"
+Graham:
   - firstname: ["Andrew", "Andrew D"]
     url: https://www.linkedin.com/in/andrew-d-graham-58401240/
 
-"Kothapalli"
+Kothapalli:
   - firstname: ["Tejasvi"]
     url: https://tejasvikothapalli.github.io/
 
-
-"Arora"
+Arora:
   - firstname: ["Himanshu"]
     url: https://www.linkedin.com/in/himanshu-arora-89b6365
 
-"Zhan"
+Zhan:
   - firstname: ["Xiaohang"]
     url: https://xiaohangzhan.github.io/
 
-"Kocielnik"
+Kocielnik:
   - firstname: ["Rafal"]
     url: https://www.rkocielnik.com/
 
-"Huang"
+Huang:
   - firstname: ["De-An"]
     url: https://ai.stanford.edu/~dahuang/
 
-"Anandkumar"
+Anandkumar:
   - firstname: ["Anima"]
     url: http://tensorlab.cms.caltech.edu/
 
-"LeCun"
+LeCun:
   - firstname: ["Yann"]
     url: https://yann.lecun.com/
 
-"Cheung"
+Cheung:
   - firstname: ["Brian"]
     url: https://briancheung.github.io/
 
-"Yeh"
+Yeh:
   - firstname: ["Chun-Hsiao"]
     url: https://danielchyeh.github.io/
 
-"Ma"
+Ma:
   - firstname: ["Yi"]
     url: https://people.eecs.berkeley.edu/~yima/
 
-"Cheng"
+Cheng:
   - firstname: ["Zehou"]
     url: https://sites.google.com/site/zezhoucheng/
 
-"Yao"
+Yao:
   - firstname: ["Jin"]
     url: https://yaojin17.github.io/
 
-"Bae"
+Bae:
   - firstname: ["Jane"]
     url: https://bae.caltech.edu/
 
-"Li"
+Li:
   - firstname: ["Zongyi"]
     url: https://zongyi-li.github.io/
 
-"Berner"
+Berner:
   - firstname: ["Julius"]
     url: https://jberner.info/
 
-"Azizzadenesheli"
+Azizzadenesheli:
   - firstname: ["Kamyar"]
     url: https://kamyar.page/index.html
 
-"Wang"
+Wang:
   - firstname: ["Lihong V.", "Lihong"]
     url: http://coilab.caltech.edu/
 
-"Aborahama"
+Aborahama:
   - firstname: ["Yousuf"]
     url: https://scholar.google.com/citations?user=VpAJScUAAAAJ
 
-"Pinton"
+Pinton:
   - firstname: ["Giammarco", "Giammarco F"]
     url: http://pintonlab.web.unc.edu/
 
-"Tolooshams"
+Tolooshams:
   - firstname: ["Bahareh"]
     url: https://btolooshams.github.io/
 
-"Ostras"
+Ostras:
   - firstname: ["Oleksii"]
     url: https://scholar.google.com/citations?user=iKpmeMcAAAAJ
