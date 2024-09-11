@@ -10,124 +10,124 @@ yu:
   - firstname: ["Qian"]
     url: https://jieruilin.github.io/
 
-Virtue:
+virtue:
   - firstname: ["Pat", "Patrick"]
     url: https://www.cs.cmu.edu/~pvirtue/
 
 lin:
-  - firstname: ["Meng C.", "Meng"]
+  - firstname: ["Meng C", "Meng", "Meng C."]
     url: https://eyecare.berkeley.edu/doctors/meng-lin/
   - firstname: ["Jierui"]
     url: https://jieruilin.github.io/
 
-Miao:
+miao:
   - firstname: ["Zhongqi"]
     url: https://scholar.google.com/citations?user=at4m2mYAAAAJ
 
-Gaynor:
+gaynor:
   - firstname: ["Kaitlyn"]
     url: https://gaynorlab.weebly.com
 
-Liu:
+liu:
   - firstname: ["Ziwei"]
     url: https://liuziwei7.github.io/
 
-Chakraborty:
+chakraborty:
   - firstname: ["Rudrasis"]
     url: https://rudra1988.github.io/
 
-Gong:
+gong:
   - firstname: ["Boqing"]
     url: http://boqinggong.info/
 
-Chen:
+chen:
   - firstname: ["Yubei"]
     url: https://yubeichen.com/
 
-Graham:
+graham:
   - firstname: ["Andrew", "Andrew D"]
     url: https://www.linkedin.com/in/andrew-d-graham-58401240/
 
-Kothapalli:
+kothapalli:
   - firstname: ["Tejasvi"]
     url: https://tejasvikothapalli.github.io/
 
-Arora:
+arora:
   - firstname: ["Himanshu"]
     url: https://www.linkedin.com/in/himanshu-arora-89b6365
 
-Zhan:
+zhan:
   - firstname: ["Xiaohang"]
     url: https://xiaohangzhan.github.io/
 
-Kocielnik:
+kocielnik:
   - firstname: ["Rafal"]
     url: https://www.rkocielnik.com/
 
-Huang:
+huang:
   - firstname: ["De-An"]
     url: https://ai.stanford.edu/~dahuang/
 
-Anandkumar:
+anandkumar:
   - firstname: ["Anima"]
     url: http://tensorlab.cms.caltech.edu/
 
-LeCun:
+leCun:
   - firstname: ["Yann"]
     url: https://yann.lecun.com/
 
-Cheung:
+cheung:
   - firstname: ["Brian"]
     url: https://briancheung.github.io/
 
-Yeh:
+yeh:
   - firstname: ["Chun-Hsiao"]
     url: https://danielchyeh.github.io/
 
-Ma:
+ma:
   - firstname: ["Yi"]
     url: https://people.eecs.berkeley.edu/~yima/
 
-Cheng:
+cheng:
   - firstname: ["Zehou"]
     url: https://sites.google.com/site/zezhoucheng/
 
-Yao:
+yao:
   - firstname: ["Jin"]
     url: https://yaojin17.github.io/
 
-Bae:
+bae:
   - firstname: ["Jane"]
     url: https://bae.caltech.edu/
 
-Li:
+li:
   - firstname: ["Zongyi"]
     url: https://zongyi-li.github.io/
 
-Berner:
+berner:
   - firstname: ["Julius"]
     url: https://jberner.info/
 
-Azizzadenesheli:
+azizzadenesheli:
   - firstname: ["Kamyar"]
     url: https://kamyar.page/index.html
 
-Wang:
+wang:
   - firstname: ["Lihong V.", "Lihong"]
     url: http://coilab.caltech.edu/
 
-Aborahama:
+aborahama:
   - firstname: ["Yousuf"]
     url: https://scholar.google.com/citations?user=VpAJScUAAAAJ
 
-Pinton:
+pinton:
   - firstname: ["Giammarco", "Giammarco F"]
     url: http://pintonlab.web.unc.edu/
 
-Tolooshams:
+tolooshams:
   - firstname: ["Bahareh"]
     url: https://btolooshams.github.io/
 
-Ostras:
+ostras:
   - firstname: ["Oleksii"]
     url: https://scholar.google.com/citations?user=iKpmeMcAAAAJ
