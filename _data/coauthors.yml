@@ -1,10 +1,14 @@
 "zhou":
   - firstname: ["S.", "Sanping"]
     url: https://scholar.google.com/citations?user=2Drvv44AAAAJ
+  - firstname: ["Di"]
+    url: https://dizhou-flow.github.io/
 
 "yu"
   - firstname: ["Stella X.", "Stella"]
     url: https://web.eecs.umich.edu/~stellayu/
+  - firstname: ["Qian"]
+    url: https://jieruilin.github.io/
 
 "Virtue"
   - firstname: ["Pat", "Patrick"]
@@ -13,6 +17,8 @@
 "lin"
   - firstname: ["Meng C.", "Meng"]
     url: https://eyecare.berkeley.edu/doctors/meng-lin/
+  - firstname: ["Jierui"]
+    url: https://jieruilin.github.io/
 
 "Miao"
   - firstname: ["Zhongqi"]
@@ -46,13 +52,6 @@
   - firstname: ["Tejasvi"]
     url: https://tejasvikothapalli.github.io/
 
-"Lin"
-  - firstname: ["Jierui"]
-    url: https://jieruilin.github.io/
-
-"Yu"
-  - firstname: ["Qian"]
-    url: https://jieruilin.github.io/
 
 "Arora"
   - firstname: ["Himanshu"]
@@ -110,10 +109,6 @@
   - firstname: ["Julius"]
     url: https://jberner.info/
 
-"Zhou"
-  - firstname: ["Di"]
-    url: https://dizhou-flow.github.io/
-    
 "Azizzadenesheli"
   - firstname: ["Kamyar"]
     url: https://kamyar.page/index.html
