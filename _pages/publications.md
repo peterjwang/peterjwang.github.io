@@ -15,19 +15,6 @@ nav_order: 3
 
 <div class="publications">
 
-<h1>Preprints</h1>
-
-{% bibliography -f preprints %}
-
-<h1>Conference &amp; Journal Articles</h1>
-
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
-
-<!---
 {% bibliography %}
--->
 
 </div>
