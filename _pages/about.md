@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoc, <a href='https://www.cms.caltech.edu/'>California Institute of Technology</a> <br>peterw at caltech dot edu
+subtitle: Postdoc, <a href='https://www.cms.caltech.edu/'>California Institute of Technology</a> | peterw at caltech dot edu
 
 profile:
   align: right
