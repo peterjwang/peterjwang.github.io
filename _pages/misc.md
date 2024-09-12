@@ -7,13 +7,13 @@ nav: true
 nav_order: 7
 ---
 
-<h1>Industrial Experience</h1>
+<h2>Industrial Experience</h2>
 
 * Founding Member, Research Scientist @ [AiZip](https://aizip.com/) (2020-2023) <br>Full-stack machine learning projects towards robust, efficient and scalable real-world AI-IoT solutions
 * Applied Scientist Intern @ [Amazon](https://www.amazon.science/) (2022)
 <br>Multi-view  human reposing and  virtual try-on system, which led to a patent
 
-<h1>Awards</h1>
+<h2>Awards</h2>
 
 * Best Paper Awards
   * Machine Learning for Health (2024)
@@ -26,7 +26,7 @@ nav_order: 7
   * National Scholarship of China (2015, 2016, 2017)
 
 
-<h1>Services &amp; Outreach</h1>
+<h2>Services &amp; Outreach</h2>
 
 * [Caltech Student-Faculty Program Summer Seminar Day](https://sfp.caltech.edu/undergraduate-research/programs/surf), Session Chair (2024)
 * Caltech Graduate Admissions Committee, AI track (2023)
@@ -39,7 +39,7 @@ nav_order: 7
     * Journals: IEEE-TPAMI, IEEE-TIP, IEEE-TCSVT,  IEEE-JBHI, IEEE-JSTARS, IEEE-Access, ACM Comp Surv., ACM TOMM, IJMLC, PLOS One, OVS, TVST, Heliyon, Current Medical Imaging, Scientific Reports, Contact Lens and Anterior Eye, Quantitative Imaging in Medicine and Surgery
  
 
-<h1>Media Coverage</h1>
+<h2>Media Coverage</h2>
 
 * AI for healthcare: [AI approach predicts demographic, clinical features from meibography images
 ](https://www.healio.com/news/optometry/20221104/ai-approach-predicts-demographic-clinical-features-from-meibography-images)
