@@ -7,13 +7,15 @@ nav: true
 nav_order: 7
 ---
 
-<h2>Industrial Experience</h2>
+<div class="publications">
+
+<h1>Industrial Experience</h1>
 
 * Founding Member, Research Scientist @ [AiZip](https://aizip.com/) (2020-2023) <br>Full-stack machine learning projects towards robust, efficient and scalable real-world AI-IoT solutions
 * Applied Scientist Intern @ [Amazon](https://www.amazon.science/) (2022)
 <br>Multi-view  human reposing and  virtual try-on system, which led to a patent
 
-<h2>Awards</h2>
+<h1>Awards</h1>
 
 * Best Paper Awards
   * Machine Learning for Health (2024)
@@ -26,7 +28,7 @@ nav_order: 7
   * National Scholarship of China (2015, 2016, 2017)
 
 
-<h2>Services &amp; Outreach</h2>
+<h1>Services &amp; Outreach</h1>
 
 * [Caltech Student-Faculty Program Summer Seminar Day](https://sfp.caltech.edu/undergraduate-research/programs/surf), Session Chair (2024)
 * Caltech Graduate Admissions Committee, AI track (2023)
@@ -39,9 +41,11 @@ nav_order: 7
     * Journals: IEEE-TPAMI, IEEE-TIP, IEEE-TCSVT,  IEEE-JBHI, IEEE-JSTARS, IEEE-Access, ACM Comp Surv., ACM TOMM, IJMLC, PLOS One, OVS, TVST, Heliyon, Current Medical Imaging, Scientific Reports, Contact Lens and Anterior Eye, Quantitative Imaging in Medicine and Surgery
  
 
-<h2>Media Coverage</h2>
+<h1>Media Coverage</h1>
 
 * AI for healthcare: [AI approach predicts demographic, clinical features from meibography images
 ](https://www.healio.com/news/optometry/20221104/ai-approach-predicts-demographic-clinical-features-from-meibography-images)
 * Generative AI: [Researchers from UC Berkeley and Amazon Introduce an Unsupervised AI Method for Synthesizing Realistic Photos from Scene Sketches](https://www.marktechpost.com/2022/09/06/researchers-from-uc-berkeley-and-amazon-introduce-an-unsupervised-ai-method-for-synthesizing-realistic-photos-from-scene-sketches/)
 * Efficient AI: [LeCun and two Chinese PhDs from UC Berkeley Proposed a Recurrent Parameter Generator that Reuses Neural Network Parameters](https://www.sohu.com/a/479156513_473283)
+
+</div>
