@@ -39,7 +39,9 @@ nav_order: 7
 * Reviewer
     * Conferences: CVPR, ICCV, ECCV, SIGGRAPH, NeurIPS, ICLR, ICML, AAAI, MICCAI, WACV, BMVC, ACCV, CPAL
     * Journals: IEEE-TPAMI, IEEE-TIP, IEEE-TCSVT,  IEEE-JBHI, IEEE-JSTARS, IEEE-Access, ACM Comp Surv., ACM TOMM, IJMLC, PLOS One, OVS, TVST, Heliyon, Current Medical Imaging, Scientific Reports, Contact Lens and Anterior Eye, Quantitative Imaging in Medicine and Surgery
- 
+* Editor
+    * Frontiers in Computer Science
+    * Journal of Imaging 
 
 <h1>Media Coverage</h1>
 
