@@ -35,10 +35,10 @@ nav_order: 7
 
 * [Caltech Student-Faculty Program Summer Seminar Day](https://sfp.caltech.edu/undergraduate-research/programs/surf), Session Chair (2024)
 * Caltech Graduate Admissions Committee, AI track (2023)
-* [Bay Area Vision Research Day (BAVRD)](https://vision.berkeley.edu/events/bavrd), Program Committee Chair (2019)
 * Berkeley Diversity, Equity, Inclusion, and Belonging (DEIB) Committee in Vision Science (2022-2023)
 * [Berkeley AI Research Mentoring Program](https://bair.berkeley.edu/reu.html), Mentor (2022-2023)
 * [Bay Area Scientists in Schools](https://crscience.org/volunteers/aboutbasis), Volunteer Teacher (2019-2022)
+* [Bay Area Vision Research Day (BAVRD)](https://vision.berkeley.edu/events/bavrd), Program Committee Chair (2019)
 * Reviewer
     * Conferences: CVPR, ICCV, ECCV, SIGGRAPH, NeurIPS, ICLR, ICML, AAAI, MICCAI, WACV, BMVC, ACCV, CPAL
     * Journals: IEEE-TPAMI, IEEE-TIP, IEEE-TCSVT,  IEEE-JBHI, IEEE-JSTARS, IEEE-Access, ACM Comp Surv., ACM TOMM, IJMLC, PLOS One, OVS, TVST, Heliyon, Current Medical Imaging, Scientific Reports, Contact Lens and Anterior Eye, Quantitative Imaging in Medicine and Surgery
