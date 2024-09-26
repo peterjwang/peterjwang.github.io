@@ -24,18 +24,18 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/table-crop.png">
     <link rel="manifest" href="./site.webmanifest">
 
-    <meta property="og:site_name" content="Virtual Pets: Animatable Animal Generation in 3D Scenes ">
+    <meta property="og:site_name" content="Pose-Aware Self-Supervised Learning with Viewpoint Trajectory Regularization">
     <meta property="og:type" content="video.other">
-    <meta property="og:title" content="Virtual Pets: Animatable Animal Generation in 3D Scenes ">
-    <meta property="og:description" content="Virtual Pets: Animatable Animal Generation in 3D Scenes , 2023.">
+    <meta property="og:title" content="Pose-Aware Self-Supervised Learning with Viewpoint Trajectory Regularization ">
+    <meta property="og:description" content="Pose-Aware Self-Supervised Learning with Viewpoint Trajectory Regularization, ECCV Oral 2024.">
     <meta property="og:url" content="https://VirtualPets.github.io/">
     <meta property="og:image" content="https://VirtualPets.github.io/assets/images/dreamfusion_samples.png">
 
-    <meta property="article:publisher" content="https://VirtualPets.github.io/">
+    <meta property="article:publisher" content="http://pwang.pw/trajSSL/">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Virtual Pets: Animatable Animal Generation in 3D Scenes ">
-    <meta name="twitter:description" content="Learning 4D animation of cats from 2D monocular videos.">
-    <meta name="twitter:url" content="https://VirtualPets.github.io/">
+    <meta name="twitter:title" content="Pose-Aware Self-Supervised Learning with Viewpoint Trajectory Regularization">
+    <meta name="twitter:description" content="We capture two aspects of object recognition through SSL (self-supervised learning): what the object is and how the object is presented.">
+    <meta name="twitter:url" content="http://pwang.pw/trajSSL/">
     <meta name="twitter:image" content="https://dreamfusion3d.github.io/assets/images/dreamfusion_samples.png">
     <!-- <meta name="twitter:site" content="" /> -->
 
@@ -80,7 +80,7 @@
 
 
         <div class="container" style="max-width: 768px;">
-          <h4 class="text-center">ECCV 2024</h4>
+          <h4 class="text-center">ECCV 2024 (Oral)</h4>
         </div>
 
         <div class="buttons" style="margin-bottom: 8px;">
@@ -101,6 +101,12 @@
                     <path fill="currentColor" d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4M10 10V12H18V10H10M10 14V16H15V14H10Z"></path>
                 </svg>
                 Dataset
+            </a>
+            <a class="btn btn-light" role="button" href="../res/pdf/poseSSL_poster.pdf">
+                <svg style="width:24px;height:24px;margin-left:-12px;margin-right:12px" width="24px" height="24px" viewBox="0 0 375 531">
+                    <polygon stroke="#000000" points="0.5,0.866 459.5,265.87 0.5,530.874 "></polygon>
+                </svg>
+                Poster
             </a>
         </div>
     </div>
@@ -164,7 +170,20 @@ object semantics but also pose.Our training data are unlabeled image triplets wi
 
     <!-- <br> -->
 
-    <hr class="divider">
+
+    <div class="container" style="max-width: 768px;">
+
+        <div class="row">
+            <div class="col-md-12">
+                <video class="video lazy" controls="" muted="" poster="./still.jpeg">
+                    <source data-src="./presentation.mp4" type="video/mp4" src="./presentation.mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+
+        <hr class="divider">
 
     <div class="container" style="max-width: 768px;">
       <div class="row">
@@ -260,6 +279,40 @@ category-specific canonical pose.
 
     </div>
 
+        <hr class="divider">
+
+    <div class="container" style="max-width: 768px;">
+      <div class="row">
+          <div class="col-md-12">
+              <h2>Method: SSL with Trajectory Loss</h2>
+          </div>
+      </div>
+
+      <img src="images/method.png" style="max-width: 768px;">
+
+      <p> <font style="font-weight: bold;"> In addition to invariance SSL loss (e.g. SimCLR), we propose trajectory loss to avoid representation collapse on pose. </font> We enforce representations of adjacent views
+of an object, z_L, z_C, z_R, to form a geodesic trajectory. 
+      </p>
+
+    </div>
+
+    <hr class="divider">
+
+    <div class="container" style="max-width: 768px;">
+      <div class="row">
+          <div class="col-md-12">
+              <h2>Results: Better Generalization</h2>
+          </div>
+      </div>
+
+      <img src="images/r2.png" style="max-width: 768px;">
+
+      <p> <font style="font-weight: bold;"> Our trajectory regularization consistently achieves higher relative pose estimation accuracy </font> for <span style="color:blue;">in-domain</span> and <span style="color:red;">out-of-domain</span> categories and in-domain, outof-domain poses. The SSL is on par or even outperforms supervised methods on out-of-domain data.
+  
+      </p>
+
+    </div>
+
     <hr class="divider">
 
     <div class="container" style="max-width: 768px;">
@@ -311,7 +364,7 @@ could partially contribute to worse pose estimation performance.
           <div class="col-md-12">
               <h2>Citation</h2>
               <code>
-                  @inproceedings{cheng2023VirtualPets,<br>
+                  @inproceedings{wang2024pose,<br>
                     &nbsp; title  = {Pose-Aware Self-Supervised Learning with Viewpoint Trajectory Regularization},<br>
                     &nbsp; author={Wang, Jiayun and Chen, Yubei and Yu, Stella},<br>
                     &nbsp;   booktitle={European Conference on Computer Vision},<br>
@@ -345,7 +398,9 @@ could partially contribute to worse pose estimation performance.
           <div class="col-md-12">
             <h2>Acknowledgement</h2>
           </div>
-          <h6> This webpage is borrowed from <a href="https://dreamfusion3d.github.io/">DreamFusion</a>. Thanks for their beautiful website! </h6>
+          <h6> This project was supported, in part, by NSF 2215542, NSF 2313151, and Bosch
+gift funds to S. Yu at UC Berkeley and the University of Michigan. The authors
+thank Zezhou Cheng and Quentin Garrido for helpful discussions.</h6>
       </div>
     </div>
 
