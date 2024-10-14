@@ -1,6 +1,24 @@
 ---
 ---
 
+@inproceedings{Jatyani2024,
+  author    = {Armeet Jatyani* and Jiayun Wang* and Zihui Wu and Miguel Liu-Schiaffini and Bahareh Tolooshams and Anima Anandkumar},
+  title     = {Unifying Subsampling Pattern Variations for Compressed Sensing MRI with Neural Operators},
+  year      = {2024}
+  booktitle={NeurIPS Workshop},
+  year={2024},
+  abbr={Compression @ NeurIPS},
+    preview={MRINO.png},
+      award={The full paper is in submission to CVPR 2025.},
+award_name={CVPR},
+  abstract={Compressed Sensing MRI (CS-MRI) reconstructs images of the body's internal anatomy from undersampled and compressed measurements, thereby reducing scan times and minimizing the duration patients need to remain still.
+Recently, deep neural networks have shown great potential for reconstructing high-quality images from highly undersampled measurements. However, since deep neural networks operate on a fixed discretization, one needs to train multiple models for different measurement subsampling patterns and image resolutions. 
+This approach is highly impractical in clinical settings, where subsampling patterns and image resolutions are frequently varied to accommodate different imaging and diagnostic requirements.
+We propose a unified model that is robust to different subsampling patterns and image resolutions in CS-MRI. Our model is based on neural operators, a discretization-agnostic architecture. We use neural operators in both image and measurement (frequency) space, which capture local and global image features for MRI reconstruction. Empirically, we achieve consistent performance across different subsampling rates and patterns, with up to 4x lower NMSE and 5 dB PSNR improvements over the state-of-the-art method. We also show the model is agnostic to image resolutions with zero-shot super-resolution results.
+Our unified model is a promising tool that is agnostic to measurement subsampling and imaging resolutions in MRI, offering significant utility in clinical settings where flexibility and adaptability are essential for efficient and reliable imaging.}
+}
+
+
 @inproceedings{zhou2017point,
   title={Point to Set Similarity Based Deep Feature Learning for Person Re-Identification},
   author={Zhou, Sanping and Wang, Jinjun and Wang, Jiayun and Gong, Yihong and Zheng, Nanning},
@@ -356,7 +374,7 @@ We introduce a new dataset of adjacent image triplets obtained from a viewpoint 
   year      = {2024},
   abbr={MICCAI},
     preview={thumbnail_mdpipe.jpg},
-  pdf={https://drive.google.com/file/d/1heqxtlgapXWqZcuMbpGi11v_sebkY5Wy},
+  pdf={https://arxiv.org/pdf/2410.00292},
   website={https://danielchyeh.github.io/MDPipe/},
   abstract={Accurate diagnosis of ocular surface diseases is critical in optometry and ophthalmology, which hinge on integrating clinical data sources (e.g., meibography imaging and clinical metadata). Traditional human assessments lack precision in quantifying clinical observations, while current machine-based methods often treat diagnoses as multi-class classification problems, limiting the diagnoses to a predefined closed-set of curated answers without reasoning the clinical relevance of each variable to the diagnosis. To tackle these challenges, we introduce an innovative multi-modal diagnostic pipeline (MDPipe) by employing large language models (LLMs) for ocular surface disease diagnosis. We first employ a visual translator to interpret meibography images by converting them into quantifiable morphology data, facilitating their integration with clinical metadata and enabling the communication of nuanced medical insight to LLMs. To further advance this communication, we introduce a LLM-based summarizer to contextualize the insight from the combined morphology and clinical metadata, and generate clinical report summaries. Finally, we refine the LLMs' reasoning ability with domain-specific insight from real-life clinician diagnoses. Our evaluation across diverse ocular surface disease diagnosis benchmarks demonstrates that MDPipe outperforms existing standards, including GPT-4, and provides clinically sound rationales for diagnoses.},
 }

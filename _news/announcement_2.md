@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[INSIGHT](https://drive.google.com/file/d/1heqxtlgapXWqZcuMbpGi11v_sebkY5Wy) accepted to MICCAI 2024!
+[INSIGHT](https://danielchyeh.github.io/MDPipe/) accepted to MICCAI 2024!
