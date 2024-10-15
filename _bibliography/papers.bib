@@ -350,6 +350,24 @@ We introduce a new dataset of adjacent image triplets obtained from a viewpoint 
 }
 
 
+@inproceedings{Jatyani2024,
+  author    = {Armeet Jatyani* and Jiayun Wang* and Zihui Wu and Miguel Liu-Schiaffini and Bahareh Tolooshams and Anima Anandkumar},
+  title     = {Unifying Subsampling Pattern Variations for Compressed Sensing MRI with Neural Operators},
+  booktitle = {NeurIPS Workshop},
+  abbr={ML Compression @ NeurIPS},
+  year      = {2024},
+  preview    = {MRINO.png},
+  award={The full paper is in submission to CVPR 2025.},
+  award_name={CVPR},
+  abstract={Compressed Sensing MRI (CS-MRI) reconstructs images of the body's internal anatomy from undersampled and compressed measurements, thereby reducing scan times and minimizing the duration patients need to remain still.
+Recently, deep neural networks have shown great potential for reconstructing high-quality images from highly undersampled measurements. However, since deep neural networks operate on a fixed discretization, one needs to train multiple models for different measurement subsampling patterns and image resolutions. 
+This approach is highly impractical in clinical settings, where subsampling patterns and image resolutions are frequently varied to accommodate different imaging and diagnostic requirements.
+We propose a unified model that is robust to different subsampling patterns and image resolutions in CS-MRI. Our model is based on neural operators, a discretization-agnostic architecture. We use neural operators in both image and measurement (frequency) space, which capture local and global image features for MRI reconstruction. Empirically, we achieve consistent performance across different subsampling rates and patterns, with up to 4x lower NMSE and 5 dB PSNR improvements over the state-of-the-art method. We also show the model is agnostic to image resolutions with zero-shot super-resolution results.
+Our unified model is a promising tool that is agnostic to measurement subsampling and imaging resolutions in MRI, offering significant utility in clinical settings where flexibility and adaptability are essential for efficient and reliable imaging.}
+}
+
+
+
 @inproceedings{yeh2024insight,
   author    = {Chun-Hsiao Yeh and Jiayun Wang and Andrew D. Graham and Andrea J. Liu and Bo Tan and Yubei Chen and Yi Ma and Meng C. Lin},
   title     = {Insight: A Multi-Modal Diagnostic Pipeline using LLMs for Ocular Surface Disease Diagnosis},
@@ -394,23 +412,6 @@ Andrew D. Graham and Jiayun Wang and Tejasvi Kothapalli and Jennifer Ding and He
   abstract={Purpose: To examine and interpret machine learning models that predict dry eye (DE)-related clinical signs, subjective symptoms, and clinician diagnoses by heavily weighting lifestyle factors in the predictions. Methods: Machine learning models were trained to take clinical assessments of the ocular surface, eyelids, and tear film, combined with symptom scores from validated questionnaire instruments for DE and clinician diagnoses of ocular surface diseases, and perform a classification into DE-related outcome categories. Outcomes are presented for which the data-driven algorithm identified subject characteristics, lifestyle, behaviors, or environmental exposures as heavily weighted predictors. Models were assessed by 5-fold cross-validation accuracy and class-wise statistics of the predictors. Conclusions: The results emphasize the importance of lifestyle, subject, and environmental characteristics in the etiology of ocular surface disease. Lifestyle factors should be taken into account in clinical research and care to a far greater extent than has been the case to date.},
 }
 
-
-
-@inproceedings{Jatyani2024,
-  author    = {Armeet Jatyani* and Jiayun Wang* and Zihui Wu and Miguel Liu-Schiaffini and Bahareh Tolooshams and Anima Anandkumar},
-  title     = {Unifying Subsampling Pattern Variations for Compressed Sensing MRI with Neural Operators},
-  booktitle = {NeurIPS Workshop},
-  abbr={Compression at NeurIPS},
-  year      = {2024},
-  preview    = {MRINO.png},
-  award={The full paper is in submission to CVPR 2025.},
-  award_name={CVPR},
-  abstract={Compressed Sensing MRI (CS-MRI) reconstructs images of the body's internal anatomy from undersampled and compressed measurements, thereby reducing scan times and minimizing the duration patients need to remain still.
-Recently, deep neural networks have shown great potential for reconstructing high-quality images from highly undersampled measurements. However, since deep neural networks operate on a fixed discretization, one needs to train multiple models for different measurement subsampling patterns and image resolutions. 
-This approach is highly impractical in clinical settings, where subsampling patterns and image resolutions are frequently varied to accommodate different imaging and diagnostic requirements.
-We propose a unified model that is robust to different subsampling patterns and image resolutions in CS-MRI. Our model is based on neural operators, a discretization-agnostic architecture. We use neural operators in both image and measurement (frequency) space, which capture local and global image features for MRI reconstruction. Empirically, we achieve consistent performance across different subsampling rates and patterns, with up to 4x lower NMSE and 5 dB PSNR improvements over the state-of-the-art method. We also show the model is agnostic to image resolutions with zero-shot super-resolution results.
-Our unified model is a promising tool that is agnostic to measurement subsampling and imaging resolutions in MRI, offering significant utility in clinical settings where flexibility and adaptability are essential for efficient and reliable imaging.}
-}
 
 
 @string{aps = {American Physical Society,}}
