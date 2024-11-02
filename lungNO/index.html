@@ -56,17 +56,32 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://pwang.pw/" target="_blank">Jiayun Wang</a>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Oleksii Ostras</a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Masashi Sode</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Bahareh Tolooshams</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Zongyi Li</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Kamyar Azizzadenesheli</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://pintonlab.web.unc.edu/people/" target="_blank">Giammarco Pinton</a><sup>*</sup>,
+                  </span>
+                                    <span class="author-block">
+                    <a href="http://tensorlab.cms.caltech.edu/users/anima/" target="_blank">Anima Anandkumar</a><sup>*</sup>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Caltech, UNC and NVIDIA<br>In submission</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Advising</small></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -81,17 +96,7 @@
                         <span>Paper</span>
                       </a>
                     </span>
-
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
+ 
 
                   <!-- Github link -->
                   <span class="link-block">
@@ -130,7 +135,34 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Diagnostic lung ultrasound (LUS) is common in clinics in the evaluation of the
+lungs for many different abnormalities and diseases. Ultrasound machine emits
+diagnostic pulse, receives pressure waves at the transducer surface, transforms
+them into radio frequency (RF) data and beamforms them to B-mode images,
+which are read by radiologists for diagnostic purposes and monitoring of lung
+disease. However, interpreting LUS B-mode images is challenging due to the ill-
+posedness of the problem, which comes from ultrasound’s inability to penetrate
+air and the complex high-order nonlinear physics of wave propagation in the lung.
+The interpretation difficulty consequently reduces the repeatability and increases
+the variance in LUS-based diagnosis and monitoring. In this work, we directly
+solve the inverse problem of ultrasound propagation in the lung and reconstruct lung aeration maps (the source) directly from the ultrasound RF data, which
+avoids the indirect and challenging interpretation of the B-mode images. Since an
+optimization-based solver is infeasible due to the high nonlinearity and extraordi-
+nary amount of time needed, we develop a deep learning based neural operator
+framework to approximate the inverse operator. Our model is based on the Fourier
+neural operator and parameterizes in Fourier space, enabling efficient RF data
+processing and reconstruct parameter maps of the lung ultrasound propagation
+model the inverse problem of ultrasound wave propagation. Lung percent aeration,
+an important clinical outcome, can be calculated from the reconstructed lung
+aeration map, unlike in semi-quantitative and human reader-dependent modern
+LUS scoring, and potentially can be used for diagnostics and monitoring. Notably,
+our model, mainly trained on simulated data, demonstrates robust performance in
+real-world RF data collected via ex-vivo swine lung scanning, with less than 10%
+percent aeration estimation error.  As a
+pilot work that reconstructs lung aeration maps from ultrasound RF data, our
+model, designed specifically for the lung and its complex reverberation physics,
+unleashes the potential to further improve clinical interpretability, reproducibility
+and diagnostic capabilities.
           </p>
         </div>
       </div>
@@ -187,7 +219,12 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@article{wang2024ultrasound,
+  title={Ultrasound Lung Aeration Map via Physics-Aware Neural Operators},
+  author={Wang, Jiayun and Ostras, Oleksii and Sode, Masashi and Tolooshams, Bahareh and Li, Zongyi and Azizzadenesheli, Kamyar and Pinton, Giammarco and Anandkumar, Anima},
+  year={2024}
+}
+</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -200,7 +237,8 @@
         <div class="content">
 
           <p>
-            Acknowledgment:
+            Acknowledgment: This work was supported in part by NIH and the AI2050
+senior fellow program at Schmidt Sciences.
           </p>
 
         </div>
