@@ -116,7 +116,7 @@ wang:
   - firstname: ["Lihong V.", "Lihong"]
     url: http://coilab.caltech.edu/
   - firstname: ["Chuwei"]
-    url: https://scholar.google.com/citations?user=O5GIrl4AAAAJ
+    url: https://cwwangcal.github.io/
 
 aborahama:
   - firstname: ["Yousuf"]
@@ -133,3 +133,11 @@ tolooshams:
 ostras:
   - firstname: ["Oleksii"]
     url: https://scholar.google.com/citations?user=iKpmeMcAAAAJ
+
+jatyani:
+  - firstname: ["Armeet"]
+    url: https://armeet.ca/
+
+wu:
+  - firstname: ["Zihui"]
+    url: https://zihuiwu.github.io/
