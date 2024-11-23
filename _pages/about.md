@@ -25,4 +25,4 @@ I am on the 2024-2025 job market looking for full-time positions. Please feel fr
 **Research Interest:** My research lies at the intersection of machine learning, computer vision and AI for healthcare. My research highlights:
 1. **Minimally Supervised ML.** Self-supervised learning from unlabled data for recognition & detection ([TPAMI'21](https://pwang.pw/spn.html)) and for geometry ([ECCV'24](https://pwang.pw/trajSSL)).
 2. **Efficient AI Algorithms.** AI models as duality to the data. Models can be made efficient if they are aware of data structures, such as orthogonality ([CVPR'20](https://pwang.pw/ocnn.html)) and recurrence ([WACV'23](https://pwang.pw/rpg.html)).
-3. **AI for Health.** Minimally supervised ML for enhanced clinical effectiveness Applications include lung ultrasound imaging ([arXiv'24](https://pwang.pw/lungNO/). and assistive diagnosis ([MICCAI'24](https://danielchyeh.github.io/MDPipe/)).
+3. **AI for Health.** Minimally supervised ML for enhanced clinical effectiveness Applications include lung ultrasound imaging ([arXiv'24](https://pwang.pw/lungNO/)). and assistive diagnosis ([MICCAI'24](https://danielchyeh.github.io/MDPipe/)).
