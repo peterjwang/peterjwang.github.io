@@ -11,7 +11,7 @@ nav_order: 7
 <h1>Industrial Experience</h1>
 </div>
 
-* Founding Member, Research Scientist @ [AiZip](https://aizip.com/) (2020-2023) <br>Full-stack machine learning projects towards robust, efficient and scalable real-world AI-IoT solutions
+* Founding Member, Research Scientist @ [AiZip](https://aizip.ai/) (2020-2023) <br>Full-stack machine learning projects towards robust, efficient and scalable real-world AI-IoT solutions
 * Applied Scientist Intern @ [Amazon](https://www.amazon.science/) (2022)
 <br>Multi-view  human reposing and  virtual try-on system, which led to a patent
 
