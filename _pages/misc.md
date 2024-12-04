@@ -21,6 +21,7 @@ nav_order: 7
 
 * Best Paper Awards
   * Machine Learning for Health (2024)
+  * Machine Learning for Health (2023)
   * HKSTP (2019)
   * CVPR workshop (2019)
 
