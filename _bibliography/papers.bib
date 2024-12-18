@@ -297,6 +297,7 @@ award_name={Spotlight},
     selected={true},
       preview={rpg.png},
     website={https://pwang.pw/rpg.html},
+    poster={rpg_poster.pdf},
     video={https://youtu.be/9S-mad1jExk},
     slides={rpg_slides.pdf},
   pdf={https://arxiv.org/pdf/2107.07110.pdf},
@@ -352,13 +353,16 @@ We introduce a new dataset of adjacent image triplets obtained from a viewpoint 
 
 @inproceedings{Jatyani2024,
   author    = {Armeet Jatyani* and Jiayun Wang* and Zihui Wu and Miguel Liu-Schiaffini and Bahareh Tolooshams and Anima Anandkumar},
-  title     = {Unifying Subsampling Pattern Variations for Compressed Sensing MRI with Neural Operators},
+  title     = {A Unified Model for Compressed Sensing MRI Across Undersampling Patterns},
   booktitle = {NeurIPS Workshop},
   abbr={Compress @ NeurIPS},
   year      = {2024},
   preview    = {MRINO.png},
   award={The full paper is in submission to CVPR 2025.},
   award_name={CVPR},
+  pdf={https://arxiv.org/pdf/2410.16290},
+  html={https://arxiv.org/abs/2410.16290},
+  website={https://armeet.ca/nomri},
   abstract={Compressed Sensing MRI (CS-MRI) reconstructs images of the body's internal anatomy from undersampled and compressed measurements, thereby reducing scan times and minimizing the duration patients need to remain still.
 Recently, deep neural networks have shown great potential for reconstructing high-quality images from highly undersampled measurements. However, since deep neural networks operate on a fixed discretization, one needs to train multiple models for different measurement subsampling patterns and image resolutions. 
 This approach is highly impractical in clinical settings, where subsampling patterns and image resolutions are frequently varied to accommodate different imaging and diagnostic requirements.
@@ -374,12 +378,31 @@ Our unified model is a promising tool that is agnostic to measurement subsamplin
   booktitle={Medical Image Computing and Computer-Assisted Intervention (MICCAI) Proceedings},
   year      = {2024},
   abbr={MICCAI},
+  html={https://papers.miccai.org/miccai-2024/413-Paper0298.html},
+    poster={https://danielchyeh.github.io/MDPipe/MICCAI24-poster-MDPipe.pdf},
     preview={thumbnail_mdpipe.jpg},
   pdf={https://arxiv.org/pdf/2410.00292},
   website={https://danielchyeh.github.io/MDPipe/},
   abstract={Accurate diagnosis of ocular surface diseases is critical in optometry and ophthalmology, which hinge on integrating clinical data sources (e.g., meibography imaging and clinical metadata). Traditional human assessments lack precision in quantifying clinical observations, while current machine-based methods often treat diagnoses as multi-class classification problems, limiting the diagnoses to a predefined closed-set of curated answers without reasoning the clinical relevance of each variable to the diagnosis. To tackle these challenges, we introduce an innovative multi-modal diagnostic pipeline (MDPipe) by employing large language models (LLMs) for ocular surface disease diagnosis. We first employ a visual translator to interpret meibography images by converting them into quantifiable morphology data, facilitating their integration with clinical metadata and enabling the communication of nuanced medical insight to LLMs. To further advance this communication, we introduce a LLM-based summarizer to contextualize the insight from the combined morphology and clinical metadata, and generate clinical report summaries. Finally, we refine the LLMs' reasoning ability with domain-specific insight from real-life clinician diagnoses. Our evaluation across diverse ocular surface disease diagnosis benchmarks demonstrates that MDPipe outperforms existing standards, including GPT-4, and provides clinically sound rationales for diagnoses.},
 }
 
+
+@inproceedings{gutpa2024,
+  title={Multi-Modal Self-Supervised Learning for Surgical Feedback Effectiveness Assessment},
+  author={Arushi Gupta and Rafal Kocielnik and Jiayun Wang and  Firdavs Nasriddinov and Cherine Yang and Elyssa Wong and Anandkumar, Anima and Hung, Andrew J},
+  booktitle={Machine Learning for Health, PMLR},
+  pages={256--267},
+  year={2024},
+  organization={PMLR},
+  preview={sslsurg.png},
+  abbr={ML4H},
+  pdf          = {https://arxiv.org/pdf/2411.10919},
+  html         = {https://arxiv.org/abs/2411.10919},
+  award={The paper won the best paper award at 2024 Machine Learning for Health Conference.},
+  award_name   = {Best Paper},
+  code = {https://github.com/arushig100/Multi-Modal-SSL-for-Surgical-Feedback-Effectiveness-Assessment},
+  abstract     = {During surgical training, real-time feedback from trainers to trainees is important for preventing errors and enhancing long-term skill acquisition. Accurately predicting the effectiveness of this feedback—specifically whether it leads to a change in trainee behavior, which is crucial for developing methods to improve surgical training and education. However, relying on human annotations to assess feedback effectiveness is labor-intensive and prone to biases, highlighting the need for an automated, scalable, and objective approach. Developing such a system is challenging, as it requires understanding both the verbal feedback delivered by the trainer and the visual context of the real-time surgical scene. To address this, we propose a method that integrates information from transcribed verbal feedback and corresponding surgical video to predict feedback effectiveness.},
+}
 @article{tejas2024,
   title={A Machine Learning Approach to Predicting Dry Eye-Related Signs, Symptoms and Diagnoses},
   author={Graham, Andrew D and Kothapalli, Tejasvi and Wang, Jiayun and Ding, Jennifer and Tse, Vivien and Asbell, Penny and Yu, Stella and Lin, Meng C},
@@ -409,6 +432,7 @@ Andrew D. Graham and Jiayun Wang and Tejasvi Kothapalli and Jennifer Ding and He
       preview={sreye.png},
   html={https://www.researchgate.net/publication/382392066_Artificial_Intelligence_Models_Utilize_Lifestyle_Factors_to_Predict_Dry_Eye-Related_Outcomes},
   slides={MGAI.pdf},
+    pdf          = {Artificial_Intelligence_Models_Utilize_Lifestyle_F.pdf},
   abstract={Purpose: To examine and interpret machine learning models that predict dry eye (DE)-related clinical signs, subjective symptoms, and clinician diagnoses by heavily weighting lifestyle factors in the predictions. Methods: Machine learning models were trained to take clinical assessments of the ocular surface, eyelids, and tear film, combined with symptom scores from validated questionnaire instruments for DE and clinician diagnoses of ocular surface diseases, and perform a classification into DE-related outcome categories. Outcomes are presented for which the data-driven algorithm identified subject characteristics, lifestyle, behaviors, or environmental exposures as heavily weighted predictors. Models were assessed by 5-fold cross-validation accuracy and class-wise statistics of the predictors. Conclusions: The results emphasize the importance of lifestyle, subject, and environmental characteristics in the etiology of ocular surface disease. Lifestyle factors should be taken into account in clinical research and care to a far greater extent than has been the case to date.},
 }
 
