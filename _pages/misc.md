@@ -51,6 +51,7 @@ nav_order: 7
 <h1>Media Coverage</h1>
 </div>
 
+* Self-supervised learning: [Helping machine learning models identify objects in any pose](https://cse.engin.umich.edu/stories/helping-machine-learning-models-identify-objects-in-any-pose)
 * AI for healthcare: [AI approach predicts demographic, clinical features from meibography images
 ](https://www.healio.com/news/optometry/20221104/ai-approach-predicts-demographic-clinical-features-from-meibography-images)
 * Generative AI: [Researchers from UC Berkeley and Amazon Introduce an Unsupervised AI Method for Synthesizing Realistic Photos from Scene Sketches](https://www.marktechpost.com/2022/09/06/researchers-from-uc-berkeley-and-amazon-introduce-an-unsupervised-ai-method-for-synthesizing-realistic-photos-from-scene-sketches/)
