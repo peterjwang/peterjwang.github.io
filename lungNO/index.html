@@ -126,34 +126,27 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lung ultrasound (LUS) is increasingly used in clinics for diagnosing and monitoring
-acute and chronic lung diseases due to its low cost and accessibility. LUS works by
-emitting diagnostic pulses, receiving pressure waves, and converting them into radio
-frequency (RF) data, which are then processed into B-mode images for radiologists
-to interpret. However, unlike conventional ultrasound, LUS interpretation is
-complicated by reverberation physics caused by the inability of ultrasound to
-penetrate air and the complex wave behavior in lung tissue. These challenges make
-interpretation highly dependent on reader expertise, requiring years of training,
-which limits its widespread use despite its potential for high accuracy in skilled
-hands.</p>
-<p>To address these challenges and democratize LUS as a reliable diagnostic tool, we
-propose LungNO , a surrogate model that directly reconstructs lung aeration
-maps from RF data, bypassing the need for indirect interpretation of B-mode
-
-images. LungNO uses a Fourier neural operator, which processes RF data efficiently in Fourier space, enabling accurate reconstruction of lung aeration maps
-
-up to 2.6 wavelengths deep. From reconstructed aeration maps, we calculate lung
-percent aeration, a key clinical metric, offering a quantitative, reader-independent
-
-alternative to traditional semi-quantitative LUS scoring methods. Trained primarily on simulated data and fine-tuned with real-world data, LungNO achieves
-
-robust performance, demonstrated by an aeration estimation error of less than
-10% in ex-vivo swine lung scans.</p>
-<p>This pilot study demonstrates the potential of directly reconstructing lung aeration
-
-maps from RF data, providing a foundation for improving LUS interpretability, reproducibility and diagnostic utility while making this powerful tool more
-
-accessible across clinical settings.</p>
+            Lung ultrasound is a growing modality in clinics for diagnosing and monitoring acute and chronic lung
+diseases due to its low cost and accessibility. Lung ultrasound works by emitting diagnostic pulses,
+receiving pressure waves and converting them into radio frequency (RF) data, which are then processed
+into B-mode images with beamformers for radiologists to interpret. However, unlike conventional
+ultrasound for soft tissue anatomical imaging, lung ultrasound interpretation is complicated by complex
+reverberations from the pleural interface caused by the inability of ultrasound to penetrate air. The
+indirect B-mode images make interpretation highly dependent on reader expertise, requiring years of
+training, which limits its widespread use despite its potential for high accuracy in skilled hands.</p>
+<p>To address these challenges and democratize ultrasound lung imaging as a reliable diagnostic tool,
+we propose Luna (the Lung Ultrasound Neural operator for Aeration), an AI model that directly
+reconstructs lung aeration maps from RF data, bypassing the need for traditional beamformers and
+indirect interpretation of B-mode images. Luna uses a Fourier neural operator, which processes
+RF data efficiently in Fourier space, enabling accurate reconstruction of lung aeration maps. From
+reconstructed aeration maps, we calculate lung percent aeration, a key clinical metric, offering a
+quantitative, reader-independent alternative to traditional semi-quantitative lung ultrasound scoring
+methods. The development of Luna involves synthetic and real data: We simulate synthetic data
+with an experimentally validated approach and scan ex vivo swine lungs as real data. Trained on
+abundant simulated data and fine-tuned with a small amount of real-world data, Luna achieves robust
+performance, demonstrated by an aeration estimation error of 9% in ex-vivo swine lung scans. We
+demonstrate the potential of directly reconstructing lung aeration maps from RF data, providing a
+foundation for improving lung ultrasound interpretability, reproducibility and diagnostic utility.</p>
           </p>
         </div>
       </div>
@@ -188,11 +181,11 @@ accessible across clinical settings.</p>
         <div class="content">
 
           <p>
-            Acknowledgment: This work is supported in part by NIH and ONR (MURI grant N000142312654
-and N000142012786). A.A. is supported in part by Bren endowed chair and the AI2050
-senior fellow program at Schmidt Sciences. B. T. is supported in part by the Swartz
-Foundation Fellowship. Z. Li is supported in part by NVIDIA Fellowship. The authors
-thank Zezhou Cheng and Julius Berner for their helpful discussions.
+            Acknowledgment: This work is supported in part by NIH-R21EB033150 and ONR (MURI grant N000142312654 and
+N000142012786). A.A. is supported in part by Bren endowed chair and the AI2050 senior fellow program
+at Schmidt Sciences. B. T. is supported in part by the Swartz Foundation Fellowship. Z. Li is supported
+in part by NVIDIA Fellowship. The authors thank Zezhou Cheng and Julius Berner for their helpful
+discussions.
           </p>
 
         </div>
