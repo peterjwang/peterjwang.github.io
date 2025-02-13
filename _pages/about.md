@@ -17,7 +17,7 @@ social: false # includes social icons at the bottom of the page
 ---
 
 
-I am a postdoctoral researcher in the [Computing + Mathematical Sciences Department](https://cms.caltech.edu/) at California Institute of Technology, working with [Anima Anandkumar](http://tensorlab.cms.caltech.edu/users/anima/) . Prior to joining Caltech, I completed my Ph.D. in [Vision Science](https://vision.berkeley.edu/) and [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/), where I worked with [Stella Yu](https://web.eecs.umich.edu/~stellayu/) on fundamental machine learning and computer vision models and [Meng Lin](https://optometry.berkeley.edu/people/meng-lin/) on applying them to healthcare.
+I am a postdoctoral researcher in the [Computing + Mathematical Sciences Department](https://cms.caltech.edu/) at California Institute of Technology, working with [Anima Anandkumar](http://tensorlab.cms.caltech.edu/users/anima/). Prior to joining Caltech, I completed my Ph.D. in [Vision Science](https://vision.berkeley.edu/) and [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/), where I worked with [Stella Yu](https://web.eecs.umich.edu/~stellayu/) on fundamental machine learning and computer vision models and [Meng Lin](https://optometry.berkeley.edu/people/meng-lin/) on applying them to healthcare.
 
 I am on the 2024-2025 job market looking for full-time positions. Please feel free to reach out!
 
