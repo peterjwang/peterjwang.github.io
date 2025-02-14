@@ -21,6 +21,7 @@ I am a postdoctoral researcher in the [Computing + Mathematical Sciences Departm
 
 I am on the 2024-2025 job market looking for full-time positions. Please feel free to reach out!
 
+[![Research overview](https://i9.ytimg.com/vi/BXrKLnlhbqo/sddefault.jpg?v=67afbf0a&sqp=CPijv70G&rs=AOn4CLBm9UdvMOO8NhMwAe_VCJnfD8fthQ)](https://youtu.be/BXrKLnlhbqo "Research overview")
 
 **Research Interest:** My research lies at the intersection of machine learning, computer vision and AI for healthcare. My research highlights:
 1. **Minimally Supervised ML.** Self-supervised learning from unlabled data for recognition & detection ([TPAMI'21](https://pwang.pw/spn.html)) and for geometry ([ECCV'24](https://pwang.pw/trajSSL)).
