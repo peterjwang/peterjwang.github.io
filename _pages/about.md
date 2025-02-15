@@ -17,9 +17,7 @@ social: false # includes social icons at the bottom of the page
 ---
 
 
-I am a postdoctoral researcher in the [Computing + Mathematical Sciences Department](https://cms.caltech.edu/) at California Institute of Technology, working with [Anima Anandkumar](http://tensorlab.cms.caltech.edu/users/anima/). Prior to joining Caltech, I completed my Ph.D. in [Vision Science](https://vision.berkeley.edu/) and [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/), where I worked with [Stella Yu](https://web.eecs.umich.edu/~stellayu/) on fundamental machine learning and computer vision models and [Meng Lin](https://optometry.berkeley.edu/people/meng-lin/) on applying them to healthcare.
-
-*I am on the 2024-2025 job market looking for full-time positions. Please feel free to reach out!*
+I am a postdoctoral researcher in the [Computing + Mathematical Sciences Department](https://cms.caltech.edu/) at [California Institute of Technology](https://www.caltech.edu/), working with [Anima Anandkumar](http://tensorlab.cms.caltech.edu/users/anima/). I am also working with [Gianmarco Pinton](https://pintonlab.web.unc.edu/people/) and [Lihong Wang](https://mede.caltech.edu/people/lvw) on applying physics-aware ML for medical imaging. Prior to joining Caltech, I completed my Ph.D. in [Vision Science](https://vision.berkeley.edu/) and [Berkeley AI Research (BAIR)](https://bair.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/), where I worked with [Stella Yu](https://web.eecs.umich.edu/~stellayu/) on fundamental machine learning and computer vision models and [Meng Lin](https://optometry.berkeley.edu/people/meng-lin/) on applying them to healthcare.
 
 
 **Research Interest:** My research lies at the intersection of machine learning, computer vision and AI for healthcare. My research highlights:
@@ -32,3 +30,5 @@ I am a postdoctoral researcher in the [Computing + Mathematical Sciences Departm
 <a href="https://youtu.be/BXrKLnlhbqo" title="Research overview">
   <img src="https://i9.ytimg.com/vi/BXrKLnlhbqo/sddefault.jpg?v=67afbf0a&sqp=CPijv70G&rs=AOn4CLBm9UdvMOO8NhMwAe_VCJnfD8fthQ" alt="Research overview" width="auto" height="300">
 </a>
+
+*I am on the 2024-2025 job market looking for full-time positions. Please feel free to reach out!*
