@@ -28,7 +28,7 @@ I am a postdoctoral researcher in the [Computing + Mathematical Sciences Departm
 **Research overview video** (Feb 2025)
 
 <a href="https://youtu.be/BXrKLnlhbqo" title="Research overview">
-  <img src="https://i9.ytimg.com/vi/BXrKLnlhbqo/sddefault.jpg?v=67afbf0a&sqp=CPijv70G&rs=AOn4CLBm9UdvMOO8NhMwAe_VCJnfD8fthQ" alt="Research overview" width="auto" height="300">
+  <img src="https://i9.ytimg.com/vi/BXrKLnlhbqo/sddefault.jpg?v=67afbf0a&sqp=CPijv70G&rs=AOn4CLBm9UdvMOO8NhMwAe_VCJnfD8fthQ" alt="Research overview" width="auto" height="340">
 </a>
 
 *I am on the 2024-2025 job market looking for full-time positions. Please feel free to reach out!*
