@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congrats to my mentee [Aditi](https://www.linkedin.com/in/aditi-chandrashekar-1042881b4) for the CS PhD offer from Princeton!
+Congrats to my mentee [Aditi](https://www.linkedin.com/in/aditi-chandrashekar-1042881b4) for the CS PhD offers from NYU and Princeton!
