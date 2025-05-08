@@ -32,4 +32,4 @@ I am a postdoctoral researcher in the [Computing + Mathematical Sciences Departm
   <img src="https://pwang.pw/assets/img/roverview.jpg" alt="Research overview" width="auto" height="340">
 </a>
 
-*I am on the 2024-2025 job market, looking for full-time positions. Please feel free to reach out!*
+*I am on the job market, looking for full-time positions. Please feel free to reach out!*
