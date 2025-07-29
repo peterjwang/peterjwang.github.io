@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Neural Operators Accelerate 3D PACT</title>
+  <title>Accelerating 3D Photoacoustic Computed Tomography with Physics-Aware Neural Operators</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -60,14 +60,14 @@
                 <span class="author-block">
                   <a href="https://www.linkedin.com/in/yousuf-aborahama-85b5a6256" target="_blank">Yousuf Aborahama</a>,</span>
                   <span class="author-block">
+                                      <span class="author-block">
+                    <a href="https://www.zhangcv.com/" target="_blank">Yang Zhang</a>,
+                  </span>
                     <a href="https://jberner.info/" target="_blank">Julius Berner</a>,
                   </span>
                   <span class="author-block">
                     <a href="https://zongyi-li.github.io/" target="_blank">Zongyi Li</a>,
                   </span><br>
-                  <span class="author-block">
-                    <a href="https://www.zhangcv.com/" target="_blank">Yang Zhang</a>,
-                  </span>
                   <span class="author-block">
                     <a href="https://kamyar.page/" target="_blank">Kamyar Azizzadenesheli</a>,
                   </span>
@@ -88,7 +88,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://drive.google.com/file/d/1sRPlBeRcrHRVzfsqtW_J9DsyxJVW5WSJ/view?usp=sharing" target="_blank"
+                        <a href="https://drive.google.com/file/d/1nmp9cPtgWc-AR6Fn8YNmkR7udVIN1qYn/view?usp=sharing" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -136,8 +136,22 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-           Photoacoustic computed tomography (PACT) is a promising technique for functional brain imaging because it provides label-free hemodynamic imaging with deep penetration, high imaging speed, and superior image quality. A three-dimensional PACT (3D-PACT) system has been developed, capable of producing high-resolution, multipurpose images for applications ranging from rodent brain studies to human breast imaging. However, reconstructing high-quality 3D images in PACT is time-consuming, requiring subjects to remain still, which limits practical applications such as breast imaging, where breath-holding for extended periods is challenging.
-We propose accelerating 3D-PACT using a deep learning-based neural operator called PACTNO that significantly reduces the required scanning time. PACTNO’s architecture is agnostic to the number of sensors used in the system, making it versatile for various imaging setups. We demonstrate the robustness and efficacy of PACTNO in reconstructing high-quality images from real phantom data, achieving consistent performance even when the number of transducers is reduced or with limited-angle acquisition. This advancement holds promise for making 3D-PACT more accessible and practical for clinical use.
+           Photoacoustic computed tomography (PACT) is an emerging technology that combines the benefits
+of optical and ultrasound imaging, with advantages including deep penetration, high imaging speed,
+and superior image quality. Recently, three-dimensional PACT (3D PACT) systems have been
+developed, which is capable of producing high-resolution, multipurpose 3D images for applications
+ranging from brain to breast imaging. However, high-quality 3D reconstruction is time-consuming,
+requiring the target to remain still. Additionally, 3D PACT system has high manufacturing cost due a
+much higher amount of sensors compared to its 2D counterpart. We propose accelerating 3D PACT
+acquisition and reconstruction using physics-aware neural operators (Pano), which is a deep learning
+architecture agnostic to the number of sensors used in the system, making it versatile for different
+sparse configurations of the sensor. In addition, Pano respects the 3D geometric arrangement and
+alignment of the sensor and target locations. It is also physics-aware, which uses the forward imaging
+model to minimize hallucinations of the deep learning model. We demonstrate the robustness and
+efficacy of Pano in reconstructing high-quality images from real phantom data, achieving consistent
+performance even when the number of transducers is reduced or with limited-angle acquisition. This
+advancement holds promise for making 3D-PACT more accessible and practical for both preclincal
+and clinical use.
           </p>
         </div>
       </div>
@@ -167,10 +181,10 @@ We propose accelerating 3D-PACT using a deep learning-based neural operator call
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>
-@article{wang2024ultrasound,
-  title={Neural Operators Accelerate 3D Photoacoustic Computed Tomography},
-  author={Wang, Jiayun and Aborahama, Yousuf and Berner, Julius and Li, Zongyi and Zhang, Yang and Azizzadenesheli, Kamyar and Wang, Lihong V. and Anandkumar, Anima},
-  year={2024}
+@article{wang2025ultrasound,
+  title={Accelerating 3D Photoacoustic Computed Tomography with Physics-Aware Neural Operators},
+  author={Wang, Jiayun and Aborahama, Yousuf and Zhang, Yang and Berner, Julius and Li, Zongyi and Azizzadenesheli, Kamyar and Wang, Lihong V. and Anandkumar, Anima},
+  year={2025}
 }
       </code></pre>
     </div>
@@ -185,10 +199,13 @@ We propose accelerating 3D-PACT using a deep learning-based neural operator call
         <div class="content">
 
           <p>
-            Acknowledgment: This work is supported in part by  ONR (MURI grant N000142312654
-and N000142012786). A.A. is supported in part by Bren endowed chair and the AI2050
-senior fellow program at Schmidt Sciences. B. T. is supported in part by the Swartz
-Foundation Fellowship. Z. Li is supported in part by NVIDIA Fellowship.
+            Acknowledgment: This work is supported in part by ONR (MURI grants N000142312654 and
+N000142012786) and the United States National Institutes of Health (NIH) grants U01 EB029823 (BRAIN
+Initiative), R35 CA220436 (Outstanding Investigator Award), and R01 CA282505. J.W. is supported in
+part by the Pritzker AI+Science initiative and Schmidt Sciences. A.A. is supported in part by the Bren
+endowed chair and the AI2050 senior fellow program at Schmidt Sciences. B. T. is supported in part by
+the Swartz Foundation Fellowship. Z. Li is supported in part by the NVIDIA Fellowship. The authors
+thank Rui Cao for helpful discussions.
           </p>
 
         </div>
