@@ -52,7 +52,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Neural Operators Accelerate 3D Photoacoustic Computed Tomography</h1>
+            <h1 class="title is-1 publication-title">Accelerating 3D Photoacoustic Computed Tomography with End-to-End Physics-Aware Neural Operators</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
@@ -60,10 +60,27 @@
                 <span class="author-block">
                   <a href="https://www.linkedin.com/in/yousuf-aborahama-85b5a6256" target="_blank">Yousuf Aborahama</a>,</span>
                   <span class="author-block">
+                     <span class="author-block">
+                    <a href="https://www.linkedin.com/in/arya-khokhar" target="_blank">Arya Khokhar</a>,
+                  </span>
                                       <span class="author-block">
                     <a href="https://www.zhangcv.com/" target="_blank">Yang Zhang</a>,
                   </span>
+                  <span class="author-block">
+                    <a href="https://cwwangcal.github.io/" target="_blank">Chuwei Wang</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=0kVF2G4AAAAJ&hl=en" target="_blank">Karteekeya Sastry</a>,
+                  </span>
+                                    <span class="author-block">
+                     <span class="author-block">
                     <a href="https://jberner.info/" target="_blank">Julius Berner</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="http://elynluo.github.io/" target="_blank">Yilin Luo</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://bonevbs.github.io/" target="_blank">Boris Bonev</a>,
                   </span>
                   <span class="author-block">
                     <a href="https://zongyi-li.github.io/" target="_blank">Zongyi Li</a>,
@@ -136,22 +153,23 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-           Photoacoustic computed tomography (PACT) is an emerging technology that combines the benefits
-of optical and ultrasound imaging, with advantages including deep penetration, high imaging speed,
-and superior image quality. Recently, three-dimensional PACT (3D PACT) systems have been
-developed, which is capable of producing high-resolution, multipurpose 3D images for applications
-ranging from brain to breast imaging. However, high-quality 3D reconstruction is time-consuming,
-requiring the target to remain still. Additionally, 3D PACT system has high manufacturing cost due a
-much higher amount of sensors compared to its 2D counterpart. We propose accelerating 3D PACT
-acquisition and reconstruction using physics-aware neural operators (Pano), which is a deep learning
-architecture agnostic to the number of sensors used in the system, making it versatile for different
-sparse configurations of the sensor. In addition, Pano respects the 3D geometric arrangement and
-alignment of the sensor and target locations. It is also physics-aware, which uses the forward imaging
-model to minimize hallucinations of the deep learning model. We demonstrate the robustness and
-efficacy of Pano in reconstructing high-quality images from real phantom data, achieving consistent
-performance even when the number of transducers is reduced or with limited-angle acquisition. This
-advancement holds promise for making 3D-PACT more accessible and practical for both preclincal
-and clinical use.
+           Photoacoustic computed tomography (PACT) combines optical contrast with ultrasonic resolution,
+achieving deep-tissue imaging beyond the optical diffusion limit. While three-dimensional PACT
+systems enable high-resolution volumetric imaging for applications spanning transcranial to breast
+imaging, current implementations require dense transducer arrays and prolonged acquisition times,
+limiting clinical translation. We introduce Pano (PACT imaging neural operator), an end-to-end
+physics-aware model that directly learns the inverse acoustic mapping from sensor measurements
+to volumetric reconstructions. Unlike existing approaches (e.g. universal back-projection algorithm),
+Pano learns both physics and data priors while also being agnostic to the input data resolution.
+Pano employs spherical discrete-continuous convolutions to preserve hemispherical sensor geometry,
+incorporates Helmholtz equation constraints to ensure physical consistency and operates resolutionindependently across varying sensor configurations. We demonstrate the robustness and efficiency of
+Pano in reconstructing high-quality images from both simulated and real experimental data, achieving
+consistent performance even with significantly reduced transducer counts and limited-angle acquisition
+configurations. The framework maintains reconstruction fidelity across diverse sparse sampling patterns
+while enabling real-time volumetric imaging capabilities. This advancement establishes a practical
+pathway for making 3D PACT more accessible and feasible for both preclinical research and clinical
+applications, substantially reducing hardware requirements without compromising image reconstruction
+quality.
           </p>
         </div>
       </div>
@@ -160,21 +178,7 @@ and clinical use.
 </section>
 <!-- End paper abstract -->
 
- 
- <!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Slides</h2>
 
-      <iframe  src="static/pdfs/pact_release_slides.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
- 
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
@@ -182,7 +186,7 @@ and clinical use.
       <h2 class="title">BibTeX</h2>
       <pre><code>
 @article{wang2025ultrasound,
-  title={Accelerating 3D Photoacoustic Computed Tomography with Physics-Aware Neural Operators},
+  title={Accelerating 3D Photoacoustic Computed Tomography with End-to-End Physics-Aware Neural Operators},
   author={Wang, Jiayun and Aborahama, Yousuf and Zhang, Yang and Berner, Julius and Li, Zongyi and Azizzadenesheli, Kamyar and Wang, Lihong V. and Anandkumar, Anima},
   year={2025}
 }
