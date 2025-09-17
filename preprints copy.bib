@@ -14,6 +14,18 @@
 To address these challenges and democratize ultrasound lung imaging as a reliable diagnostic tool, we propose LUNA, an AI model that directly reconstructs lung aeration maps from RF data, bypassing the need for traditional beamformers and indirect interpretation of B-mode images. },
 }
 
+@article{wang2025accelerating3dphotoacousticcomputed,
+      title={Accelerating 3D Photoacoustic Computed Tomography with End-to-End Physics-Aware Neural Operators}, 
+      author={Jiayun Wang and Yousuf Aborahama and Arya Khokhar and Yang Zhang and Chuwei Wang and Karteekeya Sastry and Julius Berner and Yilin Luo and Boris Bonev and Zongyi Li and Kamyar Azizzadenesheli and Lihong V. Wang and Anima Anandkumar},
+      year={2025},
+        journal   = {arXiv 2509.09894},
+        abbr={arXiv},
+       preview={pano.png},
+  pdf          = {https://arxiv.org/pdf/2509.09894},
+    html={https://arxiv.org/abs/2509.09894},
+    abstract     = {Photoacoustic computed tomography (PACT) combines optical contrast with ultrasonic resolution, achieving deep-tissue imaging beyond the optical diffusion limit. While three-dimensional PACT systems enable high-resolution volumetric imaging for applications spanning transcranial to breast imaging, current implementations require dense transducer arrays and prolonged acquisition times, limiting clinical translation. We introduce Pano (PACT imaging neural operator), an end-to-end physics-aware model that directly learns the inverse acoustic mapping from sensor measurements to volumetric reconstructions. Unlike existing approaches (e.g. universal back-projection algorithm), Pano learns both physics and data priors while also being agnostic to the input data resolution. Pano employs spherical discrete-continuous convolutions to preserve hemispherical sensor geometry, incorporates Helmholtz equation constraints to ensure physical consistency and operates resolutionindependently across varying sensor configurations. We demonstrate the robustness and efficiency of Pano in reconstructing high-quality images from both simulated and real experimental data, achieving consistent performance even with significantly reduced transducer counts and limited-angle acquisition configurations. The framework maintains reconstruction fidelity across diverse sparse sampling patterns while enabling real-time volumetric imaging capabilities. This advancement establishes a practical pathway for making 3D PACT more accessible and feasible for both preclinical research and clinical applications, substantially reducing hardware requirements without compromising image reconstruction quality. },
+
+}
 
 @article{tolooshams2023neural,
   author = {Bahareh Tolooshams and Lydia Lin and Thierri Callier and Jiayun Wang and Sanvi Pal and Aditi Chandrashekar and Claire M. Rabut and Sumner Norman and Kamyar Azizzadenesheli and Mikhail G. Shapiro and Charles Liu and Richard A. Andersen and Anima Anandkumar},
