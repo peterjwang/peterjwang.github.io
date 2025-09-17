@@ -1,0 +1,98 @@
+
+@article{wang2024lung,
+  author    = {Jiayun Wang and Oleksii Ostras and Masashi Sode and Bahareh Tolooshams and Zongyi Li and Kamyar Azizzadenesheli and Giammarco Pinton and Anima Anandkumar},
+  title     = {Ultrasound Lung Aeration Map via Physics-Aware Neural Operators},
+  journal   = {arXiv 2501.01157},
+  year      = {2025},
+  abbr={arXiv},
+       preview={lusno.png},
+         website      = {https://pwang.pw/lungNO/},
+  pdf          = {https://arxiv.org/pdf/2501.01157},
+    html={https://arxiv.org/abs/2501.01157},
+  selected     = {true},
+    abstract     = {Lung ultrasound is a growing modality in clinics for diagnosing and monitoring acute and chronic lung diseases due to its low cost and accessibility. Lung ultrasound works by emitting diagnostic pulses, receiving pressure waves and converting them into radio frequency (RF) data, which are then processed into B-mode images with beamformers for radiologists to interpret. However, unlike conventional ultrasound for soft tissue anatomical imaging, lung ultrasound interpretation is complicated by complex reverberations from the pleural interface caused by the inability of ultrasound to penetrate air. The indirect B-mode images make interpretation highly dependent on reader expertise, requiring years of training, which limits its widespread use despite its potential for high accuracy in skilled hands.
+To address these challenges and democratize ultrasound lung imaging as a reliable diagnostic tool, we propose LUNA, an AI model that directly reconstructs lung aeration maps from RF data, bypassing the need for traditional beamformers and indirect interpretation of B-mode images. },
+}
+
+@article{wang2025accelerating3dphotoacousticcomputed,
+      title={Accelerating 3D Photoacoustic Computed Tomography with End-to-End Physics-Aware Neural Operators}, 
+      author={Jiayun Wang and Yousuf Aborahama and Arya Khokhar and Yang Zhang and Chuwei Wang and Karteekeya Sastry and Julius Berner and Yilin Luo and Boris Bonev and Zongyi Li and Kamyar Azizzadenesheli and Lihong V. Wang and Anima Anandkumar},
+      year={2025},
+        journal   = {arXiv 2509.09894},
+        abbr={arXiv},
+       preview={pano.png},
+  pdf          = {https://arxiv.org/pdf/2509.09894},
+    html={https://arxiv.org/abs/2509.09894},
+    abstract     = {Photoacoustic computed tomography (PACT) combines optical contrast with ultrasonic resolution, achieving deep-tissue imaging beyond the optical diffusion limit. While three-dimensional PACT systems enable high-resolution volumetric imaging for applications spanning transcranial to breast imaging, current implementations require dense transducer arrays and prolonged acquisition times, limiting clinical translation. We introduce Pano (PACT imaging neural operator), an end-to-end physics-aware model that directly learns the inverse acoustic mapping from sensor measurements to volumetric reconstructions. Unlike existing approaches (e.g. universal back-projection algorithm), Pano learns both physics and data priors while also being agnostic to the input data resolution. Pano employs spherical discrete-continuous convolutions to preserve hemispherical sensor geometry, incorporates Helmholtz equation constraints to ensure physical consistency and operates resolutionindependently across varying sensor configurations. We demonstrate the robustness and efficiency of Pano in reconstructing high-quality images from both simulated and real experimental data, achieving consistent performance even with significantly reduced transducer counts and limited-angle acquisition configurations. The framework maintains reconstruction fidelity across diverse sparse sampling patterns while enabling real-time volumetric imaging capabilities. This advancement establishes a practical pathway for making 3D PACT more accessible and feasible for both preclinical research and clinical applications, substantially reducing hardware requirements without compromising image reconstruction quality. },
+
+}
+
+@article{tolooshams2023neural,
+  author = {Bahareh Tolooshams and Lydia Lin and Thierri Callier and Jiayun Wang and Sanvi Pal and Aditi Chandrashekar and Claire M. Rabut and Sumner Norman and Kamyar Azizzadenesheli and Mikhail G. Shapiro and Charles Liu and Richard A. Andersen and Anima Anandkumar},
+  title = {Variable Sampling for Fast and Efficient Functional Ultrasound Imaging using Neural Operators},
+    pdf          = {https://doi.org/10.1101/2025.04.16.649237},
+           preview={fus.png},
+  abbr={arXiv},
+  journal = {biorxiv 2025.04.16.649237},
+  year = {2025},
+    code = {https://github.com/neuraloperator/neuraloperator},
+   abstract     = {Functional ultrasound (fUS) is an emerging technique for non-invasive neuroimaging that infers neural activity by detecting changes in blood volume. fUS has found its applications in neuroscience studies with freely moving animals and brain-computer interfaces (BCIs) as it offers minimally invasive high
+spatiotemporal resolution and is a low-cost and portable technology compared to prior neurorecording
+techniques such as electrophysiology and functional magnetic resonance imaging (fMRI). However, the
+current classical fUS methods require a relatively large number of compounded images to successfully
+remove tissue clutter. This property has not only caused computational, memory, and communication
+complexity for fUS hardware technologies but also has resulted in an undesirable wait period to construct
+one brain image. The latter, particularly, has negatively impacted the use of fUS for real-time BCIs.
+Therefore we propose accelerated fUS through a deep learning technique called the neural operator for
+functional ultrasound (NO-fUS). NO-fUS tackles the technical challenges: it reduces the wait period of
+frame collections by 90% and the sampling rate at inference time by 50%. This extensive reduction on
+the number of input frames is a step toward more efficient fUS technology such as for 3D volumetric
+imaging fUS technology, reducing number of ultrasound pulses needed to image and, in turn, reduce
+potential probe heating and computational cost. Unlike conventional, data-driven deep neural architecture,
+NO-fUS is generalizable across experiment sessions and animals; we highlight this generalization in mouse,
+monkey, and human data. Finally, we demonstrate the BCI applications of NO-fUS in behavioral decoding.
+Specifically, our results suggest that NO-fUS not only offers high-quality images, but also preserves
+behavior-related information required to decode the subject’s thoughts and planning.},
+}
+
+
+article{wang2024fast,
+  author    = {Jiayun Wang and Yousuf Aborahama and Julius Berner and Zongyi Li and Kamyar Azizzadenesheli and Lihong V. Wang and Anima Anandkumar},
+  title     = {Fast and Resolution-Invariant 3D Photoacoustic Computed Tomography via Operator Learning},
+  journal   = {Nature Communications (in submission)},
+  year      = {2024},
+  abbr={arXiv}
+}
+
+@inproceedings{wang2024beyond,
+  title={Beyond Closure Models: Learning Chaotic-Systems via Physics-Informed Neural Operators},
+  author={Wang, Chuwei and Berner, Julius and Li, Zongyi and Zhou, Di and Wang, Jiayun and Bae, Jane and Anandkumar, Anima},
+  booktitle={arXiv 2408.05177},
+  year={2025},
+  abbr={arXiv},
+       preview={closure.png},
+       pdf={https://arxiv.org/pdf/2408.05177},
+  html={https://arxiv.org/abs/2408.05177},
+  abstract={Accurately predicting the long-term behavior of chaotic systems is crucial for various applications such as climate modeling. However, achieving such predictions typically requires iterative computations over a dense spatiotemporal grid to account for the unstable nature of chaotic systems, which is expensive and impractical in many real-world situations. An alternative approach to such a full-resolved simulation is using a coarse grid and then correcting its errors through a \textit{closure model}, which approximates the overall information from fine scales not captured in the coarse-grid simulation. Recently, ML approaches have been used for closure modeling, but they typically require a large number of training samples from expensive fully-resolved simulations (FRS). In this work, we prove an even more fundamental limitation, i.e., the standard approach to learning closure models suffers from a large approximation error for generic problems, no matter how large the model is, and it stems from the non-uniqueness of the mapping. We propose an alternative end-to-end learning approach using a physics-informed neural operator (PINO) that overcomes this limitation by not using a closure model or a coarse-grid solver.},
+}
+
+@inproceedings{Yao2024open,
+  author    = {Jin Yao and Hao Gu and Xuweiyi Chen and Jiayun Wang and Zezhou Cheng},
+  title     = {Open Vocabulary Monocular 3D Object Detection},
+  booktitle={arXiv 2411.16833},
+  year      = {2025},
+  abbr={arXiv},
+       preview={3ddet.jpg},
+  pdf          = {https://arxiv.org/pdf/2411.16833},
+  html          = {https://arxiv.org/abs/2411.16833},
+  website      = {https://uva-computer-vision-lab.github.io/ovmono3d/},
+  code         = {https://github.com/UVA-Computer-Vision-Lab/ovmono3d},
+  abstract     = {In this work, we pioneer the study of open-vocabulary monocular 3D object detection, a novel task that aims to detect and localize objects in 3D space from a single RGB image without limiting detection to a predefined set of categories. We formalize this problem, establish baseline methods, and introduce a class-agnostic approach that leverages open-vocabulary 2D detectors and lifts 2D bounding boxes into 3D space. Our approach decouples the recognition and localization of objects in 2D from the task of estimating 3D bounding boxes, enabling generalization across unseen categories. Additionally, we propose a target-aware evaluation protocol to address inconsistencies in existing datasets, improving the reliability of model performance assessment. Extensive experiments on the Omni3D dataset demonstrate the effectiveness of the proposed method in zero-shot 3D detection for novel object categories, validating its robust generalization capabilities. Our method and evaluation protocols contribute towards the development of open-vocabulary object detection models that can effectively operate in real-world, category-diverse environments.},
+}
+
+
+
+
+%not included
+%SSL PDE
+%fus
