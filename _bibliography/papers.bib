@@ -447,6 +447,35 @@ Andrew D. Graham and Jiayun Wang and Tejasvi Kothapalli and Jennifer Ding and He
 
 
 
+@inproceedings{nguyen2025flow,
+  title={Flow-Guided Neural Operator for Self-Supervised Learning on Time Series Data},
+  author={Duy Nguyen and Jiayun Wang and Jiachen Yao and Julius Berner and Anima Anandkumar},
+  booktitle={NeurIPS Workshop},
+  year={2025},
+  abbr={TS4H @ NeurIPS},
+    preview={fgno.png},
+  pdf={https://openreview.net/pdf?id=aaIpEWO6Vs},
+  abstract={Self-supervised learning (SSL) is a powerful paradigm for learning from unlabeled
+time-series data. However, traditional methods such as masked autoencoders
+(MAEs) rely on reconstructing inputs from a fixed, predetermined masking ratio.
+Instead of this static design, we propose treating the corruption level as a new degree
+of freedom for representation learning. To achieve this, we introduce the FlowGuided Neural Operator (FGNO), the first framework to combine operator learning
+with flow matching for SSL training. By leveraging Short-Time Fourier Transform
+(STFT) to enable computation under different time resolutions, our approach
+effectively learns mappings in functional spaces. We extract a rich hierarchy of
+features by tapping into different network layers (l) and generative time steps (s)
+that apply varying strengths of noise to the input data. This enables the extraction
+of versatile, task-specific representations—from low-level patterns to high-level
+semantics—all from a single model. We evaluated our model performance on
+two different biomedical domains, where our flow-based operator significantly
+outperforms established baselines. When applied to a sleep health dataset, it
+achieved 16% RMSE improvement over MAE in skin temperature regression,
+while showing 1% AUROC gain in classification tasks. On a neural decoding
+task for binary speech classification, our approach achieves a significant 20%
+AUROC improvement compared to MAE, highlighting its ability to learn powerful,
+task-adaptable representations.}
+}
+
 @string{aps = {American Physical Society,}}
 
 
