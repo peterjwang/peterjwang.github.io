@@ -17,7 +17,7 @@ social: false # includes social icons at the bottom of the page
 ---
 
 
-I am a postdoctoral researcher at the [California Institute of Technology](https://www.caltech.edu/), working with [Anima Anandkumar](http://tensorlab.cms.caltech.edu/users/anima/). Prior to joining Caltech, I completed my Ph.D. at [UC Berkeley](https://www.berkeley.edu/), where I was advised by [Stella Yu](https://web.eecs.umich.edu/~stellayu/).
+I am a senior research scientist in the [Advanced AI Center at Accenture](https://www.accenture.com/us-en/services/ai-data/ai-refinery). Prior to that, I was a postdoctoral researcher at the [California Institute of Technology](https://www.caltech.edu/), working with [Anima Anandkumar](http://tensorlab.cms.caltech.edu/users/anima/). Prior to joining Caltech, I completed my Ph.D. at [UC Berkeley](https://www.berkeley.edu/), where I was advised by [Stella Yu](https://web.eecs.umich.edu/~stellayu/).
 
 
 **Research Interest:** My research lies at the intersection of machine learning, computer vision and AI for healthcare. My research highlights:
