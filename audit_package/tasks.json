@@ -1,0 +1,3202 @@
+[
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0377_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0377_extract_condition.jpg",
+      "label": "pen",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0028_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0028_mask_condition.jpg",
+      "label": "candlesticks",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0009_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0009_mask_condition.jpg",
+      "label": "tea cups",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0169_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0169_add_condition.jpg",
+      "label": "Audi car",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0153_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0153_add_condition.jpg",
+      "label": "pink blossoms",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0394_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0394_extract_condition.jpg",
+      "label": "roll pillow",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0122_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0122_add_condition.jpg",
+      "label": "guitars",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0210_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0210_replace_condition.jpg",
+      "label": "a black office chair",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0098_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0098_mask_condition.jpg",
+      "label": "knitted tie",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0186_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0186_add_condition.jpg",
+      "label": "rose shaped ornament",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0148_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0148_add_condition.jpg",
+      "label": "lines",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0357_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0357_extract_condition.jpg",
+      "label": "a male student",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0308_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0308_extract_condition.jpg",
+      "label": "a wooden bowl",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0385_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0385_extract_condition.jpg",
+      "label": "wicker cart",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0318_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0318_extract_condition.jpg",
+      "label": "a black roof",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0297_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0297_replace_condition.jpg",
+      "label": "pair of blue and white checkered Vans shoes",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0313_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0313_extract_condition.jpg",
+      "label": "a white motorcycle",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0076_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0076_mask_condition.jpg",
+      "label": "feathers",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0063_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0063_mask_condition.jpg",
+      "label": "towel rack",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0235_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0235_replace_condition.jpg",
+      "label": "decorations",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0062_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0062_mask_condition.jpg",
+      "label": "luxury vehicles",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0131_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0131_add_condition.jpg",
+      "label": "cup",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0279_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0279_replace_condition.jpg",
+      "label": "metal kayaks",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0022_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0022_mask_condition.jpg",
+      "label": "cups",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0162_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0162_add_condition.jpg",
+      "label": "layered cake",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0007_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0007_mask_condition.jpg",
+      "label": "cherries",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0243_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0243_replace_condition.jpg",
+      "label": "a young oak",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0393_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0393_extract_condition.jpg",
+      "label": "tractors",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0165_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0165_add_condition.jpg",
+      "label": "landscape",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0154_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0154_add_condition.jpg",
+      "label": "lamp posts",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0227_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0227_replace_condition.jpg",
+      "label": "a vibrant bouquet",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0158_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0158_add_condition.jpg",
+      "label": "pair of navy blue loafers",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0010_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0010_mask_condition.jpg",
+      "label": "leaves",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0120_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0120_add_condition.jpg",
+      "label": "plates",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0129_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0129_add_condition.jpg",
+      "label": "beanie",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0370_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0370_extract_condition.jpg",
+      "label": "beige rooftop tent",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0103_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0103_add_condition.jpg",
+      "label": "fountain",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0111_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0111_add_condition.jpg",
+      "label": "hands",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0199_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0199_add_condition.jpg",
+      "label": "sink",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0208_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0208_replace_condition.jpg",
+      "label": "a wool beanie",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0384_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0384_extract_condition.jpg",
+      "label": "Lamborghini sports car",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0074_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0074_mask_condition.jpg",
+      "label": "rear design",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0187_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0187_add_condition.jpg",
+      "label": "wooden kitchen utensils",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0201_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0201_replace_condition.jpg",
+      "label": "a black sports motorcycle",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0030_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0030_mask_condition.jpg",
+      "label": "pool",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0360_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0360_extract_condition.jpg",
+      "label": "a black camera bag",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0233_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0233_replace_condition.jpg",
+      "label": "smooth sand",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0054_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0054_mask_condition.jpg",
+      "label": "Yamaha personal watercrafts",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0268_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0268_replace_condition.jpg",
+      "label": "poster",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0083_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0083_mask_condition.jpg",
+      "label": "faucets",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0005_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0005_mask_condition.jpg",
+      "label": "chair covers",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0047_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0047_mask_condition.jpg",
+      "label": "attendees",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0051_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0051_mask_condition.jpg",
+      "label": "bottles of water",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0302_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0302_extract_condition.jpg",
+      "label": "a blue van",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0253_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0253_replace_condition.jpg",
+      "label": "fishing boat",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0049_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0049_mask_condition.jpg",
+      "label": "crumbs",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0159_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0159_add_condition.jpg",
+      "label": "mat",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0396_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0396_extract_condition.jpg",
+      "label": "treadmills",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0082_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0082_mask_condition.jpg",
+      "label": "frog character",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0042_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0042_mask_condition.jpg",
+      "label": "yarn balls",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0304_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0304_extract_condition.jpg",
+      "label": "sleeves",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0225_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0225_replace_condition.jpg",
+      "label": "a cotton sweater",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0094_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0094_mask_condition.jpg",
+      "label": "license plate 'BLKNITE",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0204_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0204_replace_condition.jpg",
+      "label": "a brown dog",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0195_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0195_add_condition.jpg",
+      "label": "whale",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0207_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0207_replace_condition.jpg",
+      "label": "a metal tray",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0119_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0119_add_condition.jpg",
+      "label": "motorboat",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0078_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0078_mask_condition.jpg",
+      "label": "stew",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0310_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0310_extract_condition.jpg",
+      "label": "a bronze vase",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0006_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0006_mask_condition.jpg",
+      "label": "floral dress",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0146_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0146_add_condition.jpg",
+      "label": "headscarves",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0369_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0369_extract_condition.jpg",
+      "label": "a rocky hill",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0132_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0132_add_condition.jpg",
+      "label": "petals",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0126_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0126_add_condition.jpg",
+      "label": "benches",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0237_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0237_replace_condition.jpg",
+      "label": "a white vase",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0013_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0013_mask_condition.jpg",
+      "label": "pyramid shaped structures",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0192_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0192_add_condition.jpg",
+      "label": "yarn sheep",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0142_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0142_add_condition.jpg",
+      "label": "helicopter",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0127_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0127_add_condition.jpg",
+      "label": "roofs",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0287_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0287_replace_condition.jpg",
+      "label": "pile",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0155_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0155_add_condition.jpg",
+      "label": "paved surface",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0363_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0363_extract_condition.jpg",
+      "label": "roasted carrots",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0375_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0375_extract_condition.jpg",
+      "label": "ties",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0011_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0011_mask_condition.jpg",
+      "label": "countertops",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0269_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0269_replace_condition.jpg",
+      "label": "glass of beer",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0292_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0292_replace_condition.jpg",
+      "label": "tall street lamps",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0025_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0025_mask_condition.jpg",
+      "label": "fireplace",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0095_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0095_mask_condition.jpg",
+      "label": "store's name",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0180_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0180_add_condition.jpg",
+      "label": "skillet",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0247_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0247_replace_condition.jpg",
+      "label": "chalkboard",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0317_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0317_extract_condition.jpg",
+      "label": "hot tub",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0166_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0166_add_condition.jpg",
+      "label": "brand name 'Miller Motorcars",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0271_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0271_replace_condition.jpg",
+      "label": "wooden carriages",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0002_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0002_mask_condition.jpg",
+      "label": "balloons",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0340_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0340_extract_condition.jpg",
+      "label": "a red tractor",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0329_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0329_extract_condition.jpg",
+      "label": "a denim jacket",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0400_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0400_extract_condition.jpg",
+      "label": "ship",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0136_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0136_add_condition.jpg",
+      "label": "liquid",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0378_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0378_extract_condition.jpg",
+      "label": "mother",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0231_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0231_replace_condition.jpg",
+      "label": "a brown bear",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0123_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0123_add_condition.jpg",
+      "label": "Aston Martin sports car",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0281_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0281_replace_condition.jpg",
+      "label": "shorts",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0140_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0140_add_condition.jpg",
+      "label": "candies",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0170_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0170_add_condition.jpg",
+      "label": "sewing machine",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0229_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0229_replace_condition.jpg",
+      "label": "a wooden fence",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0221_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0221_replace_condition.jpg",
+      "label": "dirt bike",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0276_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0276_replace_condition.jpg",
+      "label": "woolen gloves",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0053_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0053_mask_condition.jpg",
+      "label": "stone building",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0084_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0084_mask_condition.jpg",
+      "label": "front windshield",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0315_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0315_extract_condition.jpg",
+      "label": "a brick building",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0262_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0262_replace_condition.jpg",
+      "label": "a blue hat",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0040_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0040_mask_condition.jpg",
+      "label": "horse drawn carriage",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0102_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0102_add_condition.jpg",
+      "label": "city",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0270_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0270_replace_condition.jpg",
+      "label": "a seeded bagel",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0260_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0260_replace_condition.jpg",
+      "label": "a standing robot",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0124_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0124_add_condition.jpg",
+      "label": "bench",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0034_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0034_mask_condition.jpg",
+      "label": "couch",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0015_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0015_mask_condition.jpg",
+      "label": "flower bouquets",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0069_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0069_mask_condition.jpg",
+      "label": "blue jeans",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0240_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0240_replace_condition.jpg",
+      "label": "tents",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0331_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0331_extract_condition.jpg",
+      "label": "a wooden bookshelf",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0018_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0018_mask_condition.jpg",
+      "label": "flower",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0244_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0244_replace_condition.jpg",
+      "label": "holiday decorations",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0289_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0289_replace_condition.jpg",
+      "label": "white birds",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0021_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0021_mask_condition.jpg",
+      "label": "electric guitar",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0371_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0371_extract_condition.jpg",
+      "label": "marble statues",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0383_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0383_extract_condition.jpg",
+      "label": "planks",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0273_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0273_replace_condition.jpg",
+      "label": "miniature garden",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0264_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0264_replace_condition.jpg",
+      "label": "a red wheelbarrow",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0089_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0089_mask_condition.jpg",
+      "label": "white sleeveless dress",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0182_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0182_add_condition.jpg",
+      "label": "snowmobile",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0285_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0285_replace_condition.jpg",
+      "label": "metal railings",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0294_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0294_replace_condition.jpg",
+      "label": "short, bleached hair",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0242_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0242_replace_condition.jpg",
+      "label": "a red cushion",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0100_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0100_mask_condition.jpg",
+      "label": "flamenco dancer",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0309_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0309_extract_condition.jpg",
+      "label": "women",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0163_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0163_add_condition.jpg",
+      "label": "bean stew",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0023_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0023_mask_condition.jpg",
+      "label": "butterfly",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0367_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0367_extract_condition.jpg",
+      "label": "a sports motorcycle",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0234_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0234_replace_condition.jpg",
+      "label": "cake stand",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0085_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0085_mask_condition.jpg",
+      "label": "Mason jar",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0044_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0044_mask_condition.jpg",
+      "label": "wood paneling",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0252_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0252_replace_condition.jpg",
+      "label": "fluffy white substance",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0338_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0338_extract_condition.jpg",
+      "label": "alloy wheels",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0016_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0016_mask_condition.jpg",
+      "label": "curtains",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0037_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0037_mask_condition.jpg",
+      "label": "elliptical machines",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0361_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0361_extract_condition.jpg",
+      "label": "a beige cloth",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0348_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0348_extract_condition.jpg",
+      "label": "a blue trampoline",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0314_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0314_extract_condition.jpg",
+      "label": "a blue backpack",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0067_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0067_mask_condition.jpg",
+      "label": "boulders",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0003_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0003_mask_condition.jpg",
+      "label": "dresses",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0366_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0366_extract_condition.jpg",
+      "label": "a white minivan",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0387_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0387_extract_condition.jpg",
+      "label": "train cars",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0376_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0376_extract_condition.jpg",
+      "label": "wood",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0241_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0241_replace_condition.jpg",
+      "label": "a red crown",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0121_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0121_add_condition.jpg",
+      "label": "drawers",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0024_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0024_mask_condition.jpg",
+      "label": "pineapples",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0230_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0230_replace_condition.jpg",
+      "label": "a young boy",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0183_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0183_add_condition.jpg",
+      "label": "spools",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0398_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0398_extract_condition.jpg",
+      "label": "silver candlesticks",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0226_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0226_replace_condition.jpg",
+      "label": "a rocky hill",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0008_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0008_mask_condition.jpg",
+      "label": "potted plant",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0305_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0305_extract_condition.jpg",
+      "label": "a metallic sculpture",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0251_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0251_replace_condition.jpg",
+      "label": "a retro camper",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0177_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0177_add_condition.jpg",
+      "label": "water features",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0160_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0160_add_condition.jpg",
+      "label": "black convertible top",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0109_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0109_add_condition.jpg",
+      "label": "stars",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0213_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0213_replace_condition.jpg",
+      "label": "sunflowers",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0041_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0041_mask_condition.jpg",
+      "label": "storefronts",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0152_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0152_add_condition.jpg",
+      "label": "water feature",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0380_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0380_extract_condition.jpg",
+      "label": "skirts",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0176_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0176_add_condition.jpg",
+      "label": "shelving units",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0071_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0071_mask_condition.jpg",
+      "label": "Ferrari",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0246_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0246_replace_condition.jpg",
+      "label": "a snowy forest",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0188_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0188_add_condition.jpg",
+      "label": "Victorian style dress",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0184_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0184_add_condition.jpg",
+      "label": "short hair",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0191_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0191_add_condition.jpg",
+      "label": "smoothies",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0220_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0220_replace_condition.jpg",
+      "label": "a wooden platform",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0286_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0286_replace_condition.jpg",
+      "label": "white sports car",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0217_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0217_replace_condition.jpg",
+      "label": "wooden benches",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0333_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0333_extract_condition.jpg",
+      "label": "interior",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0113_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0113_add_condition.jpg",
+      "label": "white dress",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0325_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0325_extract_condition.jpg",
+      "label": "greenery",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0145_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0145_add_condition.jpg",
+      "label": "dancers",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0222_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0222_replace_condition.jpg",
+      "label": "Milky Way",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0368_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0368_extract_condition.jpg",
+      "label": "banana flower",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0031_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0031_mask_condition.jpg",
+      "label": "party hats",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0118_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0118_add_condition.jpg",
+      "label": "shells",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0291_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0291_replace_condition.jpg",
+      "label": "khaki pants",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0239_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0239_replace_condition.jpg",
+      "label": "a black wheel",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0206_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0206_replace_condition.jpg",
+      "label": "sweater",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0274_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0274_replace_condition.jpg",
+      "label": "minarets",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0079_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0079_mask_condition.jpg",
+      "label": "plateaus",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0332_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0332_extract_condition.jpg",
+      "label": "a metal vase",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0275_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0275_replace_condition.jpg",
+      "label": "life ring",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0359_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0359_extract_condition.jpg",
+      "label": "a bulletin board",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0175_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0175_add_condition.jpg",
+      "label": "white beards",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0052_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0052_mask_condition.jpg",
+      "label": "Honda dirt bikes",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0194_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0194_add_condition.jpg",
+      "label": "shrubs",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0090_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0090_mask_condition.jpg",
+      "label": "screen",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0390_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0390_extract_condition.jpg",
+      "label": "seating",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0322_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0322_extract_condition.jpg",
+      "label": "a ceramic cup",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0228_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0228_replace_condition.jpg",
+      "label": "a willow tree",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0080_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0080_mask_condition.jpg",
+      "label": "insect",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0327_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0327_extract_condition.jpg",
+      "label": "a black baseball cap",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0299_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0299_replace_condition.jpg",
+      "label": "velvet drapes",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0038_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0038_mask_condition.jpg",
+      "label": "exhaust system",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0058_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0058_mask_condition.jpg",
+      "label": "mint",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0232_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0232_replace_condition.jpg",
+      "label": "a wooden barn",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0064_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0064_mask_condition.jpg",
+      "label": "balloon mural",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0211_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0211_replace_condition.jpg",
+      "label": "mural",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0288_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0288_replace_condition.jpg",
+      "label": "white t shirts",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0397_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0397_extract_condition.jpg",
+      "label": "specimen",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0203_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0203_replace_condition.jpg",
+      "label": "a wooden log",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0395_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0395_extract_condition.jpg",
+      "label": "town",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0070_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0070_mask_condition.jpg",
+      "label": "food stands",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0104_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0104_add_condition.jpg",
+      "label": "pier",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0399_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0399_extract_condition.jpg",
+      "label": "yellow ribbons",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0087_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0087_mask_condition.jpg",
+      "label": "gravy boat",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0193_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0193_add_condition.jpg",
+      "label": "tulips",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0265_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0265_replace_condition.jpg",
+      "label": "cookie sandwich",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0218_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0218_replace_condition.jpg",
+      "label": "throw pillows",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0075_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0075_mask_condition.jpg",
+      "label": "pendant necklace",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0374_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0374_extract_condition.jpg",
+      "label": "square fabric pieces",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0139_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0139_add_condition.jpg",
+      "label": "engine",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0189_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0189_add_condition.jpg",
+      "label": "vanity table",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0350_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0350_extract_condition.jpg",
+      "label": "a single attendee",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0114_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0114_add_condition.jpg",
+      "label": "artwork",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0282_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0282_replace_condition.jpg",
+      "label": "origami flower",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0059_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0059_mask_condition.jpg",
+      "label": "braided blonde hair",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0259_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0259_replace_condition.jpg",
+      "label": "a white paper menu",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0249_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0249_replace_condition.jpg",
+      "label": "a red bus",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0141_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0141_add_condition.jpg",
+      "label": "human like statues",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0125_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0125_add_condition.jpg",
+      "label": "aquatic plants",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0219_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0219_replace_condition.jpg",
+      "label": "a woven basket",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0306_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0306_extract_condition.jpg",
+      "label": "convertible",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0283_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0283_replace_condition.jpg",
+      "label": "martini glass",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0093_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0093_mask_condition.jpg",
+      "label": "instrument cluster",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0352_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0352_extract_condition.jpg",
+      "label": "animal skull",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0258_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0258_replace_condition.jpg",
+      "label": "a toy truck",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0284_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0284_replace_condition.jpg",
+      "label": "sesame seed bun",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0198_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0198_add_condition.jpg",
+      "label": "teenagers",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0057_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0057_mask_condition.jpg",
+      "label": "circular table",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0105_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0105_add_condition.jpg",
+      "label": "armchair",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0346_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0346_extract_condition.jpg",
+      "label": "a wooden toy truck",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0388_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0388_extract_condition.jpg",
+      "label": "Spirit of Ecstasy mascot",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0236_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0236_replace_condition.jpg",
+      "label": "convertible top",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0092_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0092_mask_condition.jpg",
+      "label": "recipe card",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0355_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0355_extract_condition.jpg",
+      "label": "swing",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0017_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0017_mask_condition.jpg",
+      "label": "tomatoes",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0266_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0266_replace_condition.jpg",
+      "label": "a rugged SUV",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0045_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0045_mask_condition.jpg",
+      "label": "necklaces",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0353_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0353_extract_condition.jpg",
+      "label": "bronze rims",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0106_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0106_add_condition.jpg",
+      "label": "greenery",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0110_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0110_add_condition.jpg",
+      "label": "dirt bike",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0330_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0330_extract_condition.jpg",
+      "label": "a brown horse",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0116_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0116_add_condition.jpg",
+      "label": "face",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0344_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0344_extract_condition.jpg",
+      "label": "a brick fence",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0020_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0020_mask_condition.jpg",
+      "label": "ski poles",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0216_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0216_replace_condition.jpg",
+      "label": "a plush rabbit",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0091_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0091_mask_condition.jpg",
+      "label": "rabbit statue",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0133_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0133_add_condition.jpg",
+      "label": "cake stand",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0255_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0255_replace_condition.jpg",
+      "label": "a white stone",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0147_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0147_add_condition.jpg",
+      "label": "textures",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0081_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0081_mask_condition.jpg",
+      "label": "marina",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0307_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0307_extract_condition.jpg",
+      "label": "quilt",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0321_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0321_extract_condition.jpg",
+      "label": "tablecloth",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0300_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0300_replace_condition.jpg",
+      "label": "paw",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0171_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0171_add_condition.jpg",
+      "label": "street lamp",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0349_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0349_extract_condition.jpg",
+      "label": "a dark brown tree branch",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0339_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0339_extract_condition.jpg",
+      "label": "wooden mannequins",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0200_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0200_add_condition.jpg",
+      "label": "ski slopes",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0149_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0149_add_condition.jpg",
+      "label": "flower crown",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0060_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0060_mask_condition.jpg",
+      "label": "stone cottage",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0298_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0298_replace_condition.jpg",
+      "label": "locker",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0272_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0272_replace_condition.jpg",
+      "label": "racing outfit",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0343_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0343_extract_condition.jpg",
+      "label": "tree trunk",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0197_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0197_add_condition.jpg",
+      "label": "telephone booth",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0055_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0055_mask_condition.jpg",
+      "label": "silver spoon",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0161_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0161_add_condition.jpg",
+      "label": "Mahindra off road vehicle",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0012_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0012_mask_condition.jpg",
+      "label": "floral arrangements",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0324_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0324_extract_condition.jpg",
+      "label": "a male dancer",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0277_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0277_replace_condition.jpg",
+      "label": "red bell peppers",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0173_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0173_add_condition.jpg",
+      "label": "stocking",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0389_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0389_extract_condition.jpg",
+      "label": "stream",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0035_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0035_mask_condition.jpg",
+      "label": "suit",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0326_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0326_extract_condition.jpg",
+      "label": "green apples",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0112_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0112_add_condition.jpg",
+      "label": "branch",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0316_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0316_extract_condition.jpg",
+      "label": "a wooden gazebo",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0328_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0328_extract_condition.jpg",
+      "label": "a metal robot",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0295_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0295_replace_condition.jpg",
+      "label": "tall snow covered mountains",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0263_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0263_replace_condition.jpg",
+      "label": "an acoustic piano",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0296_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0296_replace_condition.jpg",
+      "label": "wooden desks",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0137_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0137_add_condition.jpg",
+      "label": "backrest",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0365_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0365_extract_condition.jpg",
+      "label": "a white yacht",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0257_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0257_replace_condition.jpg",
+      "label": "Adirondack chairs",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0138_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0138_add_condition.jpg",
+      "label": "chalkboard sign",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0088_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0088_mask_condition.jpg",
+      "label": "white mug",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0245_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0245_replace_condition.jpg",
+      "label": "a football",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0117_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0117_add_condition.jpg",
+      "label": "black seat",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0168_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0168_add_condition.jpg",
+      "label": "cinnamon sticks",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0190_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0190_add_condition.jpg",
+      "label": "wooden structures",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0341_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0341_extract_condition.jpg",
+      "label": "a tall lamp",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0101_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0101_add_condition.jpg",
+      "label": "buildings",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0144_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0144_add_condition.jpg",
+      "label": "front seats",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0238_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0238_replace_condition.jpg",
+      "label": "a young tree",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0323_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0323_extract_condition.jpg",
+      "label": "illustrations",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0164_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0164_add_condition.jpg",
+      "label": "cucumbers",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0151_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0151_add_condition.jpg",
+      "label": "playground structure",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0391_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0391_extract_condition.jpg",
+      "label": "sports bra",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0224_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0224_replace_condition.jpg",
+      "label": "a fabric bench",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0178_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0178_add_condition.jpg",
+      "label": "watermelon",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0358_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0358_extract_condition.jpg",
+      "label": "a bamboo stalk",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0336_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0336_extract_condition.jpg",
+      "label": "camper van",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0278_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0278_replace_condition.jpg",
+      "label": "Subaru Impreza WRX STi",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0392_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0392_extract_condition.jpg",
+      "label": "reindeer",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0354_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0354_extract_condition.jpg",
+      "label": "a matte black toolbox",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0337_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0337_extract_condition.jpg",
+      "label": "an adult woman",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0048_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0048_mask_condition.jpg",
+      "label": "spokes",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0223_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0223_replace_condition.jpg",
+      "label": "a red mountain bike",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0312_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0312_extract_condition.jpg",
+      "label": "a black leather cushion",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0027_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0027_mask_condition.jpg",
+      "label": "buckets",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0072_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0072_mask_condition.jpg",
+      "label": "red handbag",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0172_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0172_add_condition.jpg",
+      "label": "Royal Enfield Himalayan motorcycle",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0108_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0108_add_condition.jpg",
+      "label": "sofa",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0001_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0001_mask_condition.jpg",
+      "label": "leather seat",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0345_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0345_extract_condition.jpg",
+      "label": "a ceramic pot",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0290_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0290_replace_condition.jpg",
+      "label": "white metal shelves",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0373_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0373_extract_condition.jpg",
+      "label": "white flower arrangements",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0043_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0043_mask_condition.jpg",
+      "label": "white and blue scooter",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0248_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0248_replace_condition.jpg",
+      "label": "a woolen cap",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0256_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0256_replace_condition.jpg",
+      "label": "a blue vase",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0181_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0181_add_condition.jpg",
+      "label": "white dessert",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0061_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0061_mask_condition.jpg",
+      "label": "R2 D2 model",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0029_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0029_mask_condition.jpg",
+      "label": "rack",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0311_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0311_extract_condition.jpg",
+      "label": "a ceramic teapot",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0386_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0386_extract_condition.jpg",
+      "label": "tracksuit jacket",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0046_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0046_mask_condition.jpg",
+      "label": "slice",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0179_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0179_add_condition.jpg",
+      "label": "roof tent",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0362_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0362_extract_condition.jpg",
+      "label": "a yellow seashell",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0364_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0364_extract_condition.jpg",
+      "label": "resort",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0065_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0065_mask_condition.jpg",
+      "label": "pedestal",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0167_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0167_add_condition.jpg",
+      "label": "chocolate covered strawberries",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0026_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0026_mask_condition.jpg",
+      "label": "crystal decanter",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0381_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0381_extract_condition.jpg",
+      "label": "porcelain bowls",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0097_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0097_mask_condition.jpg",
+      "label": "group of children",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0379_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0379_extract_condition.jpg",
+      "label": "lounge chair",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0351_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0351_extract_condition.jpg",
+      "label": "a modern bridge",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0004_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0004_mask_condition.jpg",
+      "label": "ornaments",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0334_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0334_extract_condition.jpg",
+      "label": "bench",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0335_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0335_extract_condition.jpg",
+      "label": "a red wagon",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0254_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0254_replace_condition.jpg",
+      "label": "horse trailer",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0073_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0073_mask_condition.jpg",
+      "label": "gray beanie",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0205_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0205_replace_condition.jpg",
+      "label": "a metal bench",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0261_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0261_replace_condition.jpg",
+      "label": "a digital display",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0077_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0077_mask_condition.jpg",
+      "label": "roll pillow",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0128_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0128_add_condition.jpg",
+      "label": "Cathedral",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0209_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0209_replace_condition.jpg",
+      "label": "pink flowers",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0150_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0150_add_condition.jpg",
+      "label": "exercise machines",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0143_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0143_add_condition.jpg",
+      "label": "lace embroidery",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0356_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0356_extract_condition.jpg",
+      "label": "convertibles",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0212_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0212_replace_condition.jpg",
+      "label": "bottles",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0250_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0250_replace_condition.jpg",
+      "label": "green chairs",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0096_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0096_mask_condition.jpg",
+      "label": "plush toy monkey",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0202_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0202_replace_condition.jpg",
+      "label": "a groom",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0372_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0372_extract_condition.jpg",
+      "label": "spigots",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0320_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0320_extract_condition.jpg",
+      "label": "a black treadmill",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0036_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0036_mask_condition.jpg",
+      "label": "The Creation of Adam",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0033_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0033_mask_condition.jpg",
+      "label": "costumes",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0214_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0214_replace_condition.jpg",
+      "label": "blanket",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0342_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0342_extract_condition.jpg",
+      "label": "black rubber tracks",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0134_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0134_add_condition.jpg",
+      "label": "whipped cream",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0156_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0156_add_condition.jpg",
+      "label": "shipping container",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0303_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0303_extract_condition.jpg",
+      "label": "hood",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0066_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0066_mask_condition.jpg",
+      "label": "Ford Mustang GT",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0014_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0014_mask_condition.jpg",
+      "label": "bottles of alcohol",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0319_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0319_extract_condition.jpg",
+      "label": "a black sports coupe",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0039_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0039_mask_condition.jpg",
+      "label": "stand",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0382_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0382_extract_condition.jpg",
+      "label": "shrimp",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0293_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0293_replace_condition.jpg",
+      "label": "white beards",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0157_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0157_add_condition.jpg",
+      "label": "excavation area",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0301_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0301_extract_condition.jpg",
+      "label": "a wooden pergola",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0215_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0215_replace_condition.jpg",
+      "label": "bottle",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0115_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0115_add_condition.jpg",
+      "label": "camper van",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0056_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0056_mask_condition.jpg",
+      "label": "blue shorts",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0086_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0086_mask_condition.jpg",
+      "label": "glass display cases",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0107_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0107_add_condition.jpg",
+      "label": "Mercedes Benz G Class SUV",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0068_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0068_mask_condition.jpg",
+      "label": "dip",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0196_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0196_add_condition.jpg",
+      "label": "ticket booth",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0267_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0267_replace_condition.jpg",
+      "label": "a metal barrel",
+      "category": "replace"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0019_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0019_mask_condition.jpg",
+      "label": "chandeliers",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0130_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0130_add_condition.jpg",
+      "label": "toy",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0135_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0135_add_condition.jpg",
+      "label": "dish",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0032_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0032_mask_condition.jpg",
+      "label": "latches",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0185_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0185_add_condition.jpg",
+      "label": "stands",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/add/0174_add_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/add/0174_add_condition.jpg",
+      "label": "surface",
+      "category": "add"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/extract/0347_extract_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/extract/0347_extract_condition.jpg",
+      "label": "green beans",
+      "category": "extract"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0050_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0050_mask_condition.jpg",
+      "label": "black saddlebag",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/mask/0099_mask_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/mask/0099_mask_condition.jpg",
+      "label": "serving utensil",
+      "category": "mask"
+    }
+  },
+  {
+    "data": {
+      "source": "/data/local-files/?d=audit_package/images/replace/0280_replace_source.jpg",
+      "condition": "/data/local-files/?d=audit_package/images/replace/0280_replace_condition.jpg",
+      "label": "knitted caps",
+      "category": "replace"
+    }
+  }
+]

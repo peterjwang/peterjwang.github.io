@@ -1,0 +1,52 @@
+<View>
+  <Header value="Pseudo-label audit &#8212; UniVL-ImgGen"/>
+
+  <!-- Row 1: source | condition | metadata -->
+  <View style="display: flex; gap: 16px; align-items: flex-start">
+    <View style="flex: 1">
+      <Header size="4" value="Source image"/>
+      <Image name="source" value="$source" maxWidth="500px"/>
+    </View>
+    <View style="flex: 1">
+      <Header size="4" value="Condition (mask + rendered text)"/>
+      <Image name="condition" value="$condition" maxWidth="500px"/>
+    </View>
+    <View style="flex: 1; padding-left: 12px">
+      <Header size="4" value="Rendered label"/>
+      <Text name="label" value="$label"/>
+      <Header size="4" value="Category"/>
+      <Text name="category" value="$category"/>
+    </View>
+  </View>
+
+  <!-- Q1: mask correctness (tertiary) -->
+  <View style="margin-top: 20px; padding: 12px; background: #f6f8fa; border-radius: 6px">
+    <Header value="Q1. Does the mask cover the labeled object correctly?"/>
+    <Choices name="mask_correct" toName="condition" choice="single" showInLine="true" required="true">
+      <Choice value="yes"     hotkey="q"/>
+      <Choice value="partial" hotkey="w"/>
+      <Choice value="no"      hotkey="e"/>
+    </Choices>
+  </View>
+
+  <!-- Q2: label match (tertiary) -->
+  <View style="margin-top: 8px; padding: 12px; background: #f6f8fa; border-radius: 6px">
+    <Header value="Q2. Does the label semantically match the masked region?"/>
+    <Choices name="label_match" toName="condition" choice="single" showInLine="true" required="true">
+      <Choice value="yes"   hotkey="a"/>
+      <Choice value="close" hotkey="s"/>
+      <Choice value="no"    hotkey="d"/>
+    </Choices>
+  </View>
+
+  <!-- Q3: overall quality (1-5 Likert) -->
+  <View style="margin-top: 8px; padding: 12px; background: #f6f8fa; border-radius: 6px">
+    <Header value="Q3. Overall pair quality for training  (1 = unusable, 5 = perfect)"/>
+    <Rating name="quality" toName="condition" maxRating="5" icon="star" size="medium" required="true"/>
+  </View>
+
+  <!-- optional notes -->
+  <TextArea name="notes" toName="condition"
+            placeholder="Optional notes on ambiguities or edge cases"
+            rows="2" maxSubmissions="1" showSubmitButton="false"/>
+</View>
