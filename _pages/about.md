@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: pjwang at gatech dot edu
+subtitle: pjwang at gatech dot edu | Assistant Professor at [Georgia Institute of Technology](https://gatech.edu/)
 
 profile:
   align: right
