@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will give a talk at [i2i workshop](https://cai2r.net/training/i2i-workshop/) on imaging in NYU. Look forward to chats.
+I will give a talk at [i2i workshop](https://cai2r.net/training/i2i-workshop/) on imaging at NYU. Look forward to chats.
